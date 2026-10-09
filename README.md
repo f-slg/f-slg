@@ -5,7 +5,7 @@
   <a href="https://www.linkedin.com/in/fslg/">LinkedIn</a> ·
   <a href="#trayectoria-y-participación-profesional">Trayectoria</a> ·
   <a href="#publicaciones-y-divulgación">Publicaciones</a> ·
-  <a href="#proyecto-destacado">Proyecto destacado</a>
+  <a href="#proyectos">Proyectos</a>
 </p>
 
 ---
@@ -16,7 +16,7 @@ Soy médico epidemiólogo y trabajo en la intersección de la **salud pública, 
 
 Como presidente de **HL7 Ecuador**, participo en espacios de formación y colaboración para impulsar la adopción de estándares y conectar a profesionales clínicos, equipos técnicos e instituciones. Mi trabajo también incluye divulgación sobre inteligencia artificial y su relación con la información clínica. [Trayectoria pública](https://unl.edu.ec/cienf2026/comite-cientifico).
 
-En GitHub comparto la parte práctica de este recorrido: prototipos, ejemplos documentados y aprendizajes que conectan los flujos clínicos con los datos. **Agenda FHIR**, desarrollado en R y Shiny junto a FHIR TEAM, es el punto de partida de este espacio.
+En GitHub comparto la parte práctica de este recorrido: prototipos, ejemplos documentados y aprendizajes que conectan los flujos clínicos con los datos. Iré incorporando mis proyectos de forma progresiva, con su documentación y ejemplos de uso.
 
 ## Áreas de trabajo
 
@@ -57,29 +57,22 @@ En AIpócrates comparto reflexiones sobre la fragmentación de la información s
 - [La interoperabilidad basada en inteligencia artificial: ¿La nueva torre de Babel?](https://aipocrates.blog/2025/03/09/la-interoperabilidad-basada-en-inteligencia-artificial-la-nueva-torre-de-babel/)
 - [El médico, la IA y la autopista cuántica — Parte 1](https://aipocrates.blog/2025/08/03/el-medico-la-ia-y-la-autopista-cuantica-repensando-el-futuro-de-la-medicina-desde-la-interoperabilidad-sistemica-parte-1-2/)
 
-## Proyecto destacado
+## Proyectos
 
-### [Agenda FHIR — Prototipo educativo en R y Shiny](https://github.com/f-slg/agenda-fhir-r)
+Este espacio reúne proyectos sobre salud, datos y tecnología. La colección irá creciendo a medida que publique nuevos repositorios.
 
-**FHIR TEAM · HL7 FHIR R4 · Datos sintéticos**
+| Proyecto | Descripción | Tecnologías |
+|---|---|---|
+| [Agenda FHIR](https://github.com/f-slg/agenda-fhir-r) | Prototipo educativo de FHIR TEAM para explorar el agendamiento y la atención clínica con datos sintéticos y un Core simulado. | R, Shiny, HL7 FHIR R4 |
 
-Un recorrido desde la disponibilidad y la reserva de una cita hasta el registro de una atención clínica. El proyecto permite explorar cómo se relacionan los recursos FHIR con las acciones de pacientes, agendadores y profesionales.
-
-[![Interfaz de Agenda FHIR, proyecto de FHIR TEAM](https://raw.githubusercontent.com/f-slg/agenda-fhir-r/main/docs/qa-startup/directory-home.png)](https://github.com/f-slg/agenda-fhir-r)
-
-- Portal del paciente, agenda semanal y portal clínico.
-- Recursos como Schedule, Slot, Appointment, Encounter y Observation.
-- Inspección de JSON, transacciones, versiones y trazabilidad mediante FHIR Studio.
-- Core simulado en memoria para demostración y aprendizaje.
-
-[Ver el código](https://github.com/f-slg/agenda-fhir-r) · [Instalación](https://github.com/f-slg/agenda-fhir-r#ejecutar-localmente) · [Guion de demostración](https://github.com/f-slg/agenda-fhir-r/blob/main/docs/demo-script.md)
+[Explorar mis repositorios](https://github.com/f-slg?tab=repositories)
 
 ## Herramientas en este espacio
 
 **R · Shiny · HL7 FHIR R4 · JSON · Git · GitHub**
 
-Los proyectos se acompañan de documentación sobre su funcionamiento, decisiones de diseño y limitaciones. Agenda FHIR utiliza datos sintéticos y un entorno simulado; es un prototipo educativo, no un sistema de atención clínica en producción.
+Los proyectos se acompañan de documentación sobre su funcionamiento, decisiones de diseño y limitaciones.
 
 ## Conectemos
 
-Me interesa el intercambio entre medicina, epidemiología, gestión e informática en salud. Para conversar sobre estos temas, puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/fslg/). Para sugerir mejoras al prototipo, utiliza los [Issues de Agenda FHIR](https://github.com/f-slg/agenda-fhir-r/issues).
+Me interesa el intercambio entre medicina, epidemiología, gestión e informática en salud. Para conversar sobre estos temas, puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/fslg/). Las sugerencias y propuestas de colaboración pueden compartirse en los repositorios correspondientes.
