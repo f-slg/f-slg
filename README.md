@@ -1,6 +1,6 @@
 <h1 align="center">Dr. Fabrizio Salas Guerrero</h1>
 <p align="center"><strong>Médico epidemiólogo · Salud digital · Interoperabilidad · Inteligencia artificial</strong></p>
-<p align="center">Presidente de HL7 Ecuador · Miembro de AIpócrates</p>
+<p align="center">HL7 Ecuador · Miembro de AIpócrates</p>
 <p align="center">
   <a href="https://www.linkedin.com/in/fslg/">LinkedIn</a> ·
   <a href="#trayectoria-y-participación-profesional">Trayectoria</a> ·
