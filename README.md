@@ -65,7 +65,7 @@ Este espacio reúne proyectos sobre salud, datos y tecnología. La colección ir
 |:---:|---|---|---|
 | <img src="https://raw.githubusercontent.com/f-slg/geoecu/main/man/figures/logo.png" width="64" alt="logo de geoecu" /> | [**geoecu**](https://github.com/f-slg/geoecu) | Paquete de R con las capas geográficas de provincias, cantones y parroquias del Ecuador, con códigos DPA, listas para mapear y unir con datos de salud. | R, sf, ggplot2 |
 | <img src="https://raw.githubusercontent.com/f-slg/pobecu/main/man/figures/logo.png" width="64" alt="logo de pobecu" /> | [**pobecu**](https://github.com/f-slg/pobecu) | Paquete de R con la población del Ecuador por provincia, cantón y parroquia (INEC, 1950-2050), para calcular tasas, coberturas e indicadores. | R, sf, ggplot2 |
-| | [**Agenda FHIR**](https://github.com/f-slg/agenda-fhir-r) | Prototipo educativo de FHIR TEAM para explorar el agendamiento y la atención clínica con datos sintéticos y un Core simulado. | R, Shiny, HL7 FHIR R4 |
+| <img src="https://raw.githubusercontent.com/f-slg/agenda-fhir-r/main/www/logo.png" width="64" alt="logo de Agenda FHIR" /> | [**Agenda FHIR**](https://github.com/f-slg/agenda-fhir-r) | Prototipo educativo de FHIR TEAM para explorar el agendamiento y la atención clínica con datos sintéticos y un Core simulado. | R, Shiny, HL7 FHIR R4 |
 
 geoecu y pobecu comparten los mismos códigos de la División Político-Administrativa, así que funcionan juntos: con pocas líneas se obtiene un mapa de tasas o de densidad por cantón o parroquia.
 
