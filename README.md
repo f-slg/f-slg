@@ -1,4 +1,4 @@
-<h1 align="center">Dr. Fabrizio Salas Guerrero</h1>
+<h1 align="center">Dr. Fabricio Salas Guerrero</h1>
 <p align="center"><strong>Médico epidemiólogo · Salud digital · Interoperabilidad · Inteligencia artificial</strong></p>
 <p align="center">HL7 Ecuador · Miembro de AIpócrates</p>
 <p align="center">
@@ -61,15 +61,19 @@ En AIpócrates comparto reflexiones sobre la fragmentación de la información s
 
 Este espacio reúne proyectos sobre salud, datos y tecnología. La colección irá creciendo a medida que publique nuevos repositorios.
 
-| Proyecto | Descripción | Tecnologías |
-|---|---|---|
-| [Agenda FHIR](https://github.com/f-slg/agenda-fhir-r) | Prototipo educativo de FHIR TEAM para explorar el agendamiento y la atención clínica con datos sintéticos y un Core simulado. | R, Shiny, HL7 FHIR R4 |
+| | Proyecto | Descripción | Tecnologías |
+|:---:|---|---|---|
+| <img src="https://raw.githubusercontent.com/f-slg/geoecu/main/man/figures/logo.png" width="64" alt="logo de geoecu" /> | [**geoecu**](https://github.com/f-slg/geoecu) | Paquete de R con las capas geográficas de provincias, cantones y parroquias del Ecuador, con códigos DPA, listas para mapear y unir con datos de salud. | R, sf, ggplot2 |
+| <img src="https://raw.githubusercontent.com/f-slg/pobecu/main/man/figures/logo.png" width="64" alt="logo de pobecu" /> | [**pobecu**](https://github.com/f-slg/pobecu) | Paquete de R con la población del Ecuador por provincia, cantón y parroquia (INEC, 1950-2050), para calcular tasas, coberturas e indicadores. | R, sf, ggplot2 |
+| | [**Agenda FHIR**](https://github.com/f-slg/agenda-fhir-r) | Prototipo educativo de FHIR TEAM para explorar el agendamiento y la atención clínica con datos sintéticos y un Core simulado. | R, Shiny, HL7 FHIR R4 |
+
+geoecu y pobecu comparten los mismos códigos de la División Político-Administrativa, así que funcionan juntos: con pocas líneas se obtiene un mapa de tasas o de densidad por cantón o parroquia.
 
 [Explorar mis repositorios](https://github.com/f-slg?tab=repositories)
 
 ## Herramientas en este espacio
 
-**R · Shiny · HL7 FHIR R4 · JSON · Git · GitHub**
+**R · Shiny · sf · ggplot2 · HL7 FHIR R4 · JSON · Git · GitHub Actions**
 
 Los proyectos se acompañan de documentación sobre su funcionamiento, decisiones de diseño y limitaciones.
 
