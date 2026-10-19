@@ -62,7 +62,7 @@ En AIpócrates comparto reflexiones sobre la fragmentación de la información s
 
 <img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/logo.png" align="right" width="120" alt="logo de fhirviews" />
 
-[**fhirviews**](https://github.com/f-slg/fhirviews) lleva **HL7 FHIR R4** a R: un cliente para consultar cualquier servidor FHIR desde R y RStudio, al estilo de Postman, y un motor que convierte los recursos FHIR en tablas con el estándar **[SQL on FHIR](https://sql-on-fhir.org/)** (`ViewDefinition`). Es la primera implementación de SQL on FHIR en R.
+[**fhirviews**](https://github.com/f-slg/fhirviews) lleva **HL7 FHIR R4** a R: un cliente para consultar cualquier servidor FHIR desde R y RStudio, al estilo de Postman, y un motor que convierte los recursos FHIR en tablas con el estándar **[SQL on FHIR](https://sql-on-fhir.org/)** (`ViewDefinition`). El motor de vistas funciona dentro de R, sin Java ni Spark, y devuelve `data.frame` listos para analizar.
 
 - **Conforme al estándar:** pasa las **133 pruebas *shareable*** del banco oficial de SQL on FHIR, que se ejecuta en cada comprobación de integración continua.
 - **Del servidor a la tabla:** búsqueda con paginación, lectura y escritura, transacciones, `$everything` y `$validate`, con errores legibles a partir del `OperationOutcome`.
@@ -79,7 +79,7 @@ Este espacio reúne proyectos sobre salud, datos y tecnología. La colección ir
 
 | | Proyecto | Descripción | Tecnologías |
 |:---:|---|---|---|
-| <img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/logo.png" width="64" alt="logo de fhirviews" /> | [**fhirviews**](https://github.com/f-slg/fhirviews) | Paquete de R para usar HL7 FHIR R4 desde R y RStudio como en Postman y convertir los recursos en tablas con SQL on FHIR (`ViewDefinition`). Primera implementación en R; 133/133 pruebas *shareable* del banco oficial. | R, HL7 FHIR R4, SQL on FHIR, FHIRPath, DuckDB |
+| <img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/logo.png" width="64" alt="logo de fhirviews" /> | [**fhirviews**](https://github.com/f-slg/fhirviews) | Paquete de R para usar HL7 FHIR R4 desde R y RStudio como en Postman y convertir los recursos en tablas con SQL on FHIR (`ViewDefinition`). Motor de vistas en R, sin Java ni Spark; 133/133 pruebas *shareable* del banco oficial. | R, HL7 FHIR R4, SQL on FHIR, FHIRPath, DuckDB |
 | <img src="https://raw.githubusercontent.com/f-slg/geoecu/main/man/figures/logo.png" width="64" alt="logo de geoecu" /> | [**geoecu**](https://github.com/f-slg/geoecu) | Paquete de R con las capas geográficas de provincias, cantones y parroquias del Ecuador, con códigos DPA, listas para mapear y unir con datos de salud. | R, sf, ggplot2 |
 | <img src="https://raw.githubusercontent.com/f-slg/pobecu/main/man/figures/logo.png" width="64" alt="logo de pobecu" /> | [**pobecu**](https://github.com/f-slg/pobecu) | Paquete de R con la población del Ecuador por provincia, cantón y parroquia (INEC, 1950-2050), para calcular tasas, coberturas e indicadores. | R, sf, ggplot2 |
 | <img src="https://raw.githubusercontent.com/f-slg/agenda-fhir-r/main/www/logo.png" width="64" alt="logo de Agenda FHIR" /> | [**Agenda FHIR**](https://github.com/f-slg/agenda-fhir-r) | Prototipo educativo de FHIR TEAM para explorar el agendamiento y la atención clínica con datos sintéticos y un Core simulado. | R, Shiny, HL7 FHIR R4 |
