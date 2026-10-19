@@ -5,6 +5,7 @@
   <a href="https://www.linkedin.com/in/fslg/">LinkedIn</a> ·
   <a href="#trayectoria-y-participación-profesional">Trayectoria</a> ·
   <a href="#publicaciones-y-divulgación">Publicaciones</a> ·
+  <a href="#proyecto-destacado-fhirviews">fhirviews</a> ·
   <a href="#proyectos">Proyectos</a>
 </p>
 
@@ -57,26 +58,53 @@ En AIpócrates comparto reflexiones sobre la fragmentación de la información s
 - [La interoperabilidad basada en inteligencia artificial: ¿La nueva torre de Babel?](https://aipocrates.blog/2025/03/09/la-interoperabilidad-basada-en-inteligencia-artificial-la-nueva-torre-de-babel/)
 - [El médico, la IA y la autopista cuántica — Parte 1](https://aipocrates.blog/2025/08/03/el-medico-la-ia-y-la-autopista-cuantica-repensando-el-futuro-de-la-medicina-desde-la-interoperabilidad-sistemica-parte-1-2/)
 
+## Proyecto destacado: fhirviews
+
+<img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/logo.png" align="right" width="120" alt="logo de fhirviews" />
+
+[**fhirviews**](https://github.com/f-slg/fhirviews) lleva **HL7 FHIR R4** a R: un cliente para consultar cualquier servidor FHIR desde R y RStudio, al estilo de Postman, y un motor que convierte los recursos FHIR en tablas con el estándar **[SQL on FHIR](https://sql-on-fhir.org/)** (`ViewDefinition`). Es la primera implementación de SQL on FHIR en R.
+
+- **Conforme al estándar:** pasa las **133 pruebas *shareable*** del banco oficial de SQL on FHIR, que se ejecuta en cada comprobación de integración continua.
+- **Del servidor a la tabla:** búsqueda con paginación, lectura y escritura, transacciones, `$everything` y `$validate`, con errores legibles a partir del `OperationOutcome`.
+- **Pensado para análisis:** unos 7 000 pacientes por segundo desde NDJSON, vistas guardadas en DuckDB para consultarlas con SQL y unión con [pobecu](https://github.com/f-slg/pobecu) para calcular tasas por cantón.
+- **Para enseñar y explorar:** panel *Connections* y addins de RStudio, y el caso clínico de [Aprende FHIR](https://github.com/f-slg/aprende-fhir) incluido como datos de ejemplo.
+
+<img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/README-json-tabla.png" width="100%" alt="De un recurso Patient en JSON, a un ViewDefinition, a una tabla de R" />
+
+[Repositorio](https://github.com/f-slg/fhirviews) · [Documentación](https://f-slg.github.io/fhirviews/) · [Versión 0.1.0](https://github.com/f-slg/fhirviews/releases/tag/v0.1.0) · [Cómo funciona por dentro](https://f-slg.github.io/fhirviews/articles/arquitectura.html)
+
 ## Proyectos
 
 Este espacio reúne proyectos sobre salud, datos y tecnología. La colección irá creciendo a medida que publique nuevos repositorios.
 
 | | Proyecto | Descripción | Tecnologías |
 |:---:|---|---|---|
+| <img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/logo.png" width="64" alt="logo de fhirviews" /> | [**fhirviews**](https://github.com/f-slg/fhirviews) | Paquete de R para usar HL7 FHIR R4 desde R y RStudio como en Postman y convertir los recursos en tablas con SQL on FHIR (`ViewDefinition`). Primera implementación en R; 133/133 pruebas *shareable* del banco oficial. | R, HL7 FHIR R4, SQL on FHIR, FHIRPath, DuckDB |
 | <img src="https://raw.githubusercontent.com/f-slg/geoecu/main/man/figures/logo.png" width="64" alt="logo de geoecu" /> | [**geoecu**](https://github.com/f-slg/geoecu) | Paquete de R con las capas geográficas de provincias, cantones y parroquias del Ecuador, con códigos DPA, listas para mapear y unir con datos de salud. | R, sf, ggplot2 |
 | <img src="https://raw.githubusercontent.com/f-slg/pobecu/main/man/figures/logo.png" width="64" alt="logo de pobecu" /> | [**pobecu**](https://github.com/f-slg/pobecu) | Paquete de R con la población del Ecuador por provincia, cantón y parroquia (INEC, 1950-2050), para calcular tasas, coberturas e indicadores. | R, sf, ggplot2 |
 | <img src="https://raw.githubusercontent.com/f-slg/agenda-fhir-r/main/www/logo.png" width="64" alt="logo de Agenda FHIR" /> | [**Agenda FHIR**](https://github.com/f-slg/agenda-fhir-r) | Prototipo educativo de FHIR TEAM para explorar el agendamiento y la atención clínica con datos sintéticos y un Core simulado. | R, Shiny, HL7 FHIR R4 |
 | <img src="https://raw.githubusercontent.com/f-slg/aprende-fhir/main/imagenes/logo.png" width="64" alt="logo de Aprende FHIR" /> | [**Aprende FHIR**](https://github.com/f-slg/aprende-fhir) | Taller de HL7 FHIR R4 en español, paso a paso: cada recurso explicado con su ficha y construido campo por campo, siguiendo un caso clínico ecuatoriano. Para Postman, R o curl. | HL7 FHIR R4, Postman, R |
 
-geoecu y pobecu comparten los mismos códigos de la División Político-Administrativa, así que funcionan juntos: con pocas líneas se obtiene un mapa de tasas o de densidad por cantón o parroquia.
+Los proyectos forman un flujo de trabajo completo, del dato clínico estandarizado al indicador territorial:
+
+```mermaid
+flowchart LR
+    A["Aprende FHIR<br/>taller y caso clínico"] -->|"recursos FHIR"| F["fhirviews<br/>FHIR a tablas<br/>(SQL on FHIR)"]
+    S["Servidores FHIR<br/>HAPI, sistemas de salud"] -->|"búsquedas, NDJSON"| F
+    F -->|"casos por cantón"| P["pobecu<br/>población INEC<br/>tasas e indicadores"]
+    P -->|"códigos DPA"| G["geoecu<br/>mapas por provincia,<br/>cantón y parroquia"]
+    AG["Agenda FHIR<br/>prototipo en Shiny<br/>(Core simulado)"] -.->|"mismo estándar"| S
+```
+
+geoecu y pobecu comparten los mismos códigos de la División Político-Administrativa, así que funcionan juntos: con pocas líneas se obtiene un mapa de tasas o de densidad por cantón o parroquia. Con fhirviews, los datos que vienen de un servidor FHIR se convierten en las tablas de casos que pobecu necesita para calcular esas tasas.
 
 [Explorar mis repositorios](https://github.com/f-slg?tab=repositories)
 
 ## Herramientas en este espacio
 
-**R · Shiny · sf · ggplot2 · HL7 FHIR R4 · JSON · Git · GitHub Actions**
+**R · Shiny · sf · ggplot2 · HL7 FHIR R4 · SQL on FHIR · FHIRPath · JSON · DuckDB · JavaScript (V8) · testthat · pkgdown · Git · GitHub Actions**
 
-Los proyectos se acompañan de documentación sobre su funcionamiento, decisiones de diseño y limitaciones.
+Los proyectos se acompañan de documentación sobre su funcionamiento, decisiones de diseño y limitaciones: sitios de documentación y ejemplos de uso, notas sobre las fuentes de los datos y, en los paquetes de R (geoecu, pobecu y fhirviews), pruebas automáticas en Windows, macOS y Linux.
 
 ## Conectemos
 
