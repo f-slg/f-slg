@@ -67,12 +67,13 @@ En AIpócrates comparto reflexiones sobre la fragmentación de la información s
 - **Conforme al estándar:** pasa las **133 pruebas *shareable*** del banco oficial de SQL on FHIR, que se ejecuta en cada comprobación de integración continua.
 - **Del servidor a la tabla:** búsqueda con paginación, lectura y escritura, transacciones, `$everything`, `$validate` y exportación masiva con `$export` (FHIR Bulk Data), con errores legibles a partir del `OperationOutcome`.
 - **Listo para servidores de producción:** autenticación SMART on FHIR / OAuth2 (*client credentials*, *Backend Services* con JWT firmado e inicio de sesión en el navegador), con renovación automática del token.
-- **Pensado para grandes volúmenes:** un segundo motor traduce las vistas a SQL de DuckDB y procesa **un millón de pacientes en unos 5,5 segundos** en un portátil, con las mismas tablas que el motor principal; vistas guardadas en DuckDB para consultarlas con SQL y unión con [pobecu](https://github.com/f-slg/pobecu) para calcular tasas por cantón.
+- **Pensado para grandes volúmenes:** un segundo motor traduce las vistas a SQL de DuckDB, con la misma semántica de FHIRPath que el motor principal, y procesa **un millón de pacientes en unos 6 segundos** en un portátil; vistas guardadas en DuckDB para consultarlas con SQL y unión con [pobecu](https://github.com/f-slg/pobecu) para calcular tasas por cantón.
+- **Listo para salud pública:** un catálogo de vistas estándar (pacientes con residencia, signos vitales, diagnósticos CIE-10/SNOMED CT, notificación obligatoria, inmunizaciones...) y terminologías (`$expand`, `$lookup`, `$validate-code`) para definir indicadores con un `ValueSet`.
 - **Para enseñar y explorar:** panel *Connections* y addins de RStudio, y el caso clínico de [Aprende FHIR](https://github.com/f-slg/aprende-fhir) incluido como datos de ejemplo.
 
 <img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/README-json-tabla.png" width="100%" alt="De un recurso Patient en JSON, a un ViewDefinition, a una tabla de R" />
 
-[Repositorio](https://github.com/f-slg/fhirviews) · [Documentación](https://f-slg.github.io/fhirviews/) · [Versión 0.2.0](https://github.com/f-slg/fhirviews/releases/tag/v0.2.0) · [Cómo funciona por dentro](https://f-slg.github.io/fhirviews/articles/arquitectura.html)
+[Repositorio](https://github.com/f-slg/fhirviews) · [Documentación](https://f-slg.github.io/fhirviews/) · [Versión 0.3.0](https://github.com/f-slg/fhirviews/releases/tag/v0.3.0) · [Cómo funciona por dentro](https://f-slg.github.io/fhirviews/articles/arquitectura.html)
 
 ## Proyectos
 
@@ -80,7 +81,7 @@ Este espacio reúne proyectos sobre salud, datos y tecnología. La colección ir
 
 | | Proyecto | Descripción | Tecnologías |
 |:---:|---|---|---|
-| <img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/logo.png" width="64" alt="logo de fhirviews" /> | [**fhirviews**](https://github.com/f-slg/fhirviews) | Paquete de R para usar HL7 FHIR R4 desde R y RStudio como en Postman y convertir los recursos en tablas con SQL on FHIR (`ViewDefinition`). Motor de vistas en R, sin Java ni Spark, más un motor DuckDB para millones de recursos; SMART on FHIR y `$export`; 133/133 pruebas *shareable* del banco oficial. | R, HL7 FHIR R4, SQL on FHIR, FHIRPath, DuckDB, OAuth2 |
+| <img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/logo.png" width="64" alt="logo de fhirviews" /> | [**fhirviews**](https://github.com/f-slg/fhirviews) | Paquete de R para usar HL7 FHIR R4 desde R y RStudio como en Postman y convertir los recursos en tablas con SQL on FHIR (`ViewDefinition`). Motor de vistas en R, sin Java ni Spark, más un motor DuckDB para millones de recursos; SMART on FHIR, `$export`, terminologías y un catálogo de vistas para salud pública; 133/133 pruebas *shareable* del banco oficial. | R, HL7 FHIR R4, SQL on FHIR, FHIRPath, DuckDB, OAuth2, terminologías |
 | <img src="https://raw.githubusercontent.com/f-slg/geoecu/main/man/figures/logo.png" width="64" alt="logo de geoecu" /> | [**geoecu**](https://github.com/f-slg/geoecu) | Paquete de R con las capas geográficas de provincias, cantones y parroquias del Ecuador, con códigos DPA, listas para mapear y unir con datos de salud. | R, sf, ggplot2 |
 | <img src="https://raw.githubusercontent.com/f-slg/pobecu/main/man/figures/logo.png" width="64" alt="logo de pobecu" /> | [**pobecu**](https://github.com/f-slg/pobecu) | Paquete de R con la población del Ecuador por provincia, cantón y parroquia (INEC, 1950-2050), para calcular tasas, coberturas e indicadores. | R, sf, ggplot2 |
 | <img src="https://raw.githubusercontent.com/f-slg/agenda-fhir-r/main/www/logo.png" width="64" alt="logo de Agenda FHIR" /> | [**Agenda FHIR**](https://github.com/f-slg/agenda-fhir-r) | Prototipo educativo de FHIR TEAM para explorar el agendamiento y la atención clínica con datos sintéticos y un Core simulado. | R, Shiny, HL7 FHIR R4 |
