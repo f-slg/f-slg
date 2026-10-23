@@ -1,13 +1,8 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="Dr. Fabricio Salas Guerrero · Médico epidemiólogo · Salud digital · Interoperabilidad" width="100%" />
-</p>
+<h1 align="center">Dr. Fabricio Salas Guerrero</h1>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/fslg/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-fslg-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="https://f-slg.github.io/fhirviews/"><img alt="Documentación de fhirviews" src="https://img.shields.io/badge/docs-fhirviews-0b5560?style=flat" /></a>
-  <a href="https://CRAN.R-project.org/package=geoecu"><img alt="geoecu en CRAN" src="https://www.r-pkg.org/badges/version/geoecu?label=CRAN%20geoecu" /></a>
-  <a href="https://aipocrates.blog/"><img alt="AIpócrates" src="https://img.shields.io/badge/blog-AIp%C3%B3crates-5eead4?style=flat&labelColor=0a1b33" /></a>
-</p>
+<p align="center">Médico epidemiólogo · Salud digital · Interoperabilidad · Ingeniería de datos en salud · IA</p>
+
+<p align="center">Presidente de <strong>HL7 Ecuador</strong> · <a href="https://www.linkedin.com/in/fslg/">LinkedIn</a> · <a href="https://aipocrates.blog/">AIpócrates</a></p>
 
 <p align="center">
   <a href="#proyectos">Proyectos</a> ·
@@ -26,15 +21,7 @@ Soy médico epidemiólogo y trabajo entre la **salud pública y la tecnología**
 
 Aquí publico el lado práctico de ese trabajo: **paquetes de R, prototipos y talleres** documentados, que llevan un dato clínico estandarizado hasta un indicador territorial.
 
-<p>
-  <img alt="R" src="https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white" />
-  <img alt="HL7 FHIR R4" src="https://img.shields.io/badge/HL7%20FHIR-R4-E8590C?style=flat" />
-  <img alt="SQL on FHIR" src="https://img.shields.io/badge/SQL%20on%20FHIR-ViewDefinition-0b5560?style=flat" />
-  <img alt="DuckDB" src="https://img.shields.io/badge/DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black" />
-  <img alt="Shiny" src="https://img.shields.io/badge/Shiny-1F5F8B?style=flat" />
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white" />
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
-</p>
+**Herramientas:** R · HL7 FHIR R4 · SQL on FHIR · DuckDB · Shiny · GitHub Actions
 
 ## Proyectos
 
