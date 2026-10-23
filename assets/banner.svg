@@ -1,0 +1,95 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="280"
+  viewBox="0 0 1200 280"
+  role="img"
+  aria-labelledby="title desc"
+  lang="es"
+  xml:lang="es"
+>
+  <title id="title">
+    Dr. Fabricio Salas Guerrero — Médico epidemiólogo
+  </title>
+  <desc id="desc">
+    Salud digital, interoperabilidad, ingeniería de datos en salud
+    e inteligencia artificial. Presidente de HL7 Ecuador.
+    R, Python, HL7 FHIR y datos para la vigilancia.
+  </desc>
+
+  <!-- Fondo -->
+  <rect width="1200" height="280" fill="#F4F2EC"/>
+
+  <g font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+
+    <!-- Encabezado -->
+    <path
+      d="M56 43H80"
+      stroke="#54766A"
+      stroke-width="2"
+    />
+    <text
+      x="94"
+      y="48"
+      font-size="12"
+      font-weight="500"
+      letter-spacing="2"
+      fill="#4E655C"
+    >MEDICINA · DATOS · SALUD PÚBLICA</text>
+
+    <!-- Nombre -->
+    <text
+      x="54"
+      y="111"
+      font-size="48"
+      font-weight="500"
+      letter-spacing="-1.6"
+      fill="#203D35"
+    >Dr. Fabricio Salas Guerrero</text>
+
+    <!-- Especialidad y áreas de trabajo -->
+    <text
+      x="56"
+      y="151"
+      font-size="20"
+      font-weight="500"
+      fill="#203D35"
+    >Médico epidemiólogo</text>
+
+    <path d="M275 136V154" stroke="#B8C2B9"/>
+
+    <text
+      x="294"
+      y="151"
+      font-size="18"
+      font-weight="400"
+      fill="#4E655C"
+    >Salud digital · Interoperabilidad · Ingeniería de datos en salud · IA</text>
+
+    <!-- Separador -->
+    <path d="M56 190H1144" stroke="#CBD2C8"/>
+
+    <!-- Afiliación institucional -->
+    <text
+      x="56"
+      y="232"
+      font-size="15"
+      fill="#4E655C"
+    >Presidente de <tspan
+      font-weight="600"
+      fill="#203D35"
+    >HL7 Ecuador</tspan></text>
+
+    <!-- Herramientas y enfoque -->
+    <text
+      x="1144"
+      y="232"
+      text-anchor="end"
+      font-size="14"
+      fill="#4E655C"
+    >R · Python · HL7 FHIR <tspan
+      fill="#899B90"
+    > / </tspan> Datos para la vigilancia</text>
+
+  </g>
+</svg>
