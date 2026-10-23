@@ -1,93 +1,52 @@
-<h1 align="center">Dr. Fabricio Salas Guerrero</h1>
-<p align="center"><strong>Médico epidemiólogo · Salud digital · Interoperabilidad · Inteligencia artificial</strong></p>
-<p align="center">HL7 Ecuador · Miembro de AIpócrates</p>
 <p align="center">
-  <a href="https://www.linkedin.com/in/fslg/">LinkedIn</a> ·
-  <a href="#trayectoria-y-participación-profesional">Trayectoria</a> ·
-  <a href="#publicaciones-y-divulgación">Publicaciones</a> ·
-  <a href="#proyecto-destacado-fhirviews">fhirviews</a> ·
-  <a href="#proyectos">Proyectos</a>
+  <img src="assets/banner.svg" alt="Dr. Fabricio Salas Guerrero · Médico epidemiólogo · Salud digital · Interoperabilidad" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/fslg/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-fslg-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://f-slg.github.io/fhirviews/"><img alt="Documentación de fhirviews" src="https://img.shields.io/badge/docs-fhirviews-0b5560?style=flat" /></a>
+  <a href="https://CRAN.R-project.org/package=geoecu"><img alt="geoecu en CRAN" src="https://www.r-pkg.org/badges/version/geoecu?label=CRAN%20geoecu" /></a>
+  <a href="https://aipocrates.blog/"><img alt="AIpócrates" src="https://img.shields.io/badge/blog-AIp%C3%B3crates-5eead4?style=flat&labelColor=0a1b33" /></a>
+</p>
+
+<p align="center">
+  <a href="#proyectos">Proyectos</a> ·
+  <a href="#destacado-fhirviews">fhirviews</a> ·
+  <a href="#hitos">Hitos</a> ·
+  <a href="#formación">Formación</a> ·
+  <a href="#publicaciones">Publicaciones</a> ·
+  <a href="#conectemos">Contacto</a>
 </p>
 
 ---
 
 ## Sobre mí
 
-Soy médico epidemiólogo y trabajo en la intersección de la **salud pública, la gestión sanitaria y la tecnología**. Mi trayectoria combina el análisis de información para la vigilancia epidemiológica con la salud digital, la telemedicina y la interoperabilidad de los sistemas de información.
+Soy médico epidemiólogo y trabajo entre la **salud pública y la tecnología**: vigilancia epidemiológica, interoperabilidad con **HL7 FHIR**, analítica de datos e inteligencia artificial aplicada a la salud. Presido **HL7 Ecuador** y escribo en **AIpócrates**.
 
-Como presidente de **HL7 Ecuador**, participo en espacios de formación y colaboración para impulsar la adopción de estándares y conectar a profesionales clínicos, equipos técnicos e instituciones. Mi trabajo también incluye divulgación sobre inteligencia artificial y su relación con la información clínica. [Trayectoria pública](https://unl.edu.ec/cienf2026/comite-cientifico).
+Aquí publico el lado práctico de ese trabajo: **paquetes de R, prototipos y talleres** documentados, que llevan un dato clínico estandarizado hasta un indicador territorial.
 
-En GitHub comparto la parte práctica de este recorrido: prototipos, ejemplos documentados y aprendizajes que conectan los flujos clínicos con los datos. Iré incorporando mis proyectos de forma progresiva, con su documentación y ejemplos de uso.
-
-## Áreas de trabajo
-
-| Área | Enfoque |
-|---|---|
-| **Epidemiología y salud pública** | Vigilancia epidemiológica, análisis de información y uso de datos para apoyar decisiones sanitarias. |
-| **Interoperabilidad en salud** | Modelado de recursos, continuidad de la información y adopción de estándares HL7 FHIR. |
-| **Salud digital y telemedicina** | Conexión entre procesos asistenciales, sistemas de información y servicios de salud. |
-| **Inteligencia artificial aplicada a salud** | Relación entre IA, calidad de datos, interoperabilidad y evaluación de su utilidad clínica. |
-| **Gestión sanitaria** | Articulación entre necesidades de los servicios, información y transformación digital. |
-| **Formación y divulgación** | Intercambio de conocimientos entre profesionales de salud, tecnología y academia. |
-
-## Trayectoria y participación profesional
-
-- **Presidente de HL7 Ecuador.** Participación en iniciativas de interoperabilidad y formación sobre estándares de información en salud. Mi contribución al panorama de FHIR en Ecuador figura en el informe [State of FHIR 2026](https://simplifier.net/jurisdictions/EC).
-- **Miembro de AIpócrates y de la Organización Internacional de Telemedicina**, según la [biografía institucional de la Universidad Nacional de Loja](https://unl.edu.ec/cienf2026/comite-cientifico).
-- **Experiencia en vigilancia y sistemas de información de salud pública.** Coautor de un trabajo sobre optimización de bases de datos para el seguimiento de eventos epidemiológicos en Ecuador, publicado con afiliación al Ministerio de Salud Pública. [Publicación de 2023](https://practicafamiliarrural.org/index.php/pfr/article/view/292).
-- **Participación como ponente** en espacios académicos sobre interoperabilidad, HL7 FHIR, SNOMED CT e inteligencia artificial en salud. [Programa de la Universidad de Cuenca, 2026](https://www.ucuenca.edu.ec/wp-content/uploads/2026/05/CRONOGRAMA-FINAL-2.2.pdf).
-
-## Formación
-
-Mi formación reúne **medicina, epidemiología y gerencia en salud**, junto con estudios de posgrado en inteligencia artificial y aprendizaje automático.
-
-La biografía de la [Universidad Nacional de Loja](https://unl.edu.ec/cienf2026/comite-cientifico) recoge la maestría en Gerencia en Salud y la formación de posgrado en IA y ML. En mi [perfil profesional de LinkedIn](https://www.linkedin.com/in/fslg/) se detallan la trayectoria académica y las certificaciones, incluyendo formación en IA y aprendizaje automático de The University of Texas at Austin y fundamentos de HL7 FHIR.
-
-## Publicaciones y divulgación
-
-### Sistemas de información para la vigilancia epidemiológica · 2023
-
-Coautor de un reporte de implementación sobre optimización de bases de datos de salud en Ecuador para mejorar el monitoreo de eventos epidemiológicos, con atención a arbovirosis y malaria. Publicado en **Práctica Familiar Rural**, volumen 8, número 3.
-
-[Leer el artículo](https://practicafamiliarrural.org/index.php/pfr/article/view/292) · [DOI: 10.16921/pfr.v8i3.292](https://doi.org/10.16921/pfr.v8i3.292)
-
-### Interoperabilidad e inteligencia artificial · 2025
-
-En AIpócrates comparto reflexiones sobre la fragmentación de la información sanitaria, la necesidad de estándares comunes y la relación entre la práctica médica y las nuevas tecnologías.
-
-- [La interoperabilidad basada en inteligencia artificial: ¿La nueva torre de Babel?](https://aipocrates.blog/2025/03/09/la-interoperabilidad-basada-en-inteligencia-artificial-la-nueva-torre-de-babel/)
-- [El médico, la IA y la autopista cuántica — Parte 1](https://aipocrates.blog/2025/08/03/el-medico-la-ia-y-la-autopista-cuantica-repensando-el-futuro-de-la-medicina-desde-la-interoperabilidad-sistemica-parte-1-2/)
-
-## Proyecto destacado: fhirviews
-
-<img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/logo.png" align="right" width="120" alt="logo de fhirviews" />
-
-[**fhirviews**](https://github.com/f-slg/fhirviews) lleva **HL7 FHIR R4** a R: un cliente para consultar cualquier servidor FHIR desde R y RStudio, al estilo de Postman, y un motor que convierte los recursos FHIR en tablas con el estándar **[SQL on FHIR](https://sql-on-fhir.org/)** (`ViewDefinition`). El motor de vistas funciona dentro de R, sin Java ni Spark, y devuelve `data.frame` listos para analizar.
-
-- **Conforme al estándar:** pasa las **133 pruebas *shareable*** del banco oficial de SQL on FHIR, que se ejecuta en cada comprobación de integración continua.
-- **Del servidor a la tabla:** búsqueda con paginación, lectura y escritura, transacciones, `$everything`, `$validate` y exportación masiva con `$export` (FHIR Bulk Data), con errores legibles a partir del `OperationOutcome`.
-- **Listo para servidores de producción:** autenticación SMART on FHIR / OAuth2 (*client credentials*, *Backend Services* con JWT firmado e inicio de sesión en el navegador), con renovación automática del token.
-- **Pensado para grandes volúmenes:** un segundo motor traduce las vistas a SQL de DuckDB, con la misma semántica de FHIRPath que el motor principal, y procesa **un millón de pacientes en unos 6 segundos** en un portátil; vistas guardadas en DuckDB para consultarlas con SQL y unión con [pobecu](https://github.com/f-slg/pobecu) para calcular tasas por cantón.
-- **Listo para salud pública:** un catálogo de vistas estándar (pacientes con residencia, signos vitales, diagnósticos CIE-10/SNOMED CT, notificación obligatoria, inmunizaciones...) y terminologías (`$expand`, `$lookup`, `$validate-code`) para definir indicadores con un `ValueSet`.
-- **Para enseñar y explorar:** panel *Connections* y addins de RStudio, y el caso clínico de [Aprende FHIR](https://github.com/f-slg/aprende-fhir) incluido como datos de ejemplo.
-
-<img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/README-json-tabla.png" width="100%" alt="De un recurso Patient en JSON, a un ViewDefinition, a una tabla de R" />
-
-[Repositorio](https://github.com/f-slg/fhirviews) · [Documentación](https://f-slg.github.io/fhirviews/) · [Versión 0.3.0](https://github.com/f-slg/fhirviews/releases/tag/v0.3.0) · [Cómo funciona por dentro](https://f-slg.github.io/fhirviews/articles/arquitectura.html)
+<p>
+  <img alt="R" src="https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white" />
+  <img alt="HL7 FHIR R4" src="https://img.shields.io/badge/HL7%20FHIR-R4-E8590C?style=flat" />
+  <img alt="SQL on FHIR" src="https://img.shields.io/badge/SQL%20on%20FHIR-ViewDefinition-0b5560?style=flat" />
+  <img alt="DuckDB" src="https://img.shields.io/badge/DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black" />
+  <img alt="Shiny" src="https://img.shields.io/badge/Shiny-1F5F8B?style=flat" />
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=githubactions&logoColor=white" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" />
+</p>
 
 ## Proyectos
 
-Este espacio reúne proyectos sobre salud, datos y tecnología. La colección irá creciendo a medida que publique nuevos repositorios.
-
-| | Proyecto | Descripción | Tecnologías |
+| | Proyecto | Qué hace | Tecnologías |
 |:---:|---|---|---|
-| <img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/logo.png" width="64" alt="logo de fhirviews" /> | [**fhirviews**](https://github.com/f-slg/fhirviews) | Paquete de R para usar HL7 FHIR R4 desde R y RStudio como en Postman y convertir los recursos en tablas con SQL on FHIR (`ViewDefinition`). Motor de vistas en R, sin Java ni Spark, más un motor DuckDB para millones de recursos; SMART on FHIR, `$export`, terminologías y un catálogo de vistas para salud pública; 133/133 pruebas *shareable* del banco oficial. | R, HL7 FHIR R4, SQL on FHIR, FHIRPath, DuckDB, OAuth2, terminologías |
-| <img src="https://raw.githubusercontent.com/f-slg/geoecu/main/man/figures/logo.png" width="64" alt="logo de geoecu" /> | [**geoecu**](https://github.com/f-slg/geoecu) | Paquete de R con las capas geográficas de provincias, cantones y parroquias del Ecuador, con códigos DPA, listas para mapear y unir con datos de salud. | R, sf, ggplot2 |
-| <img src="https://raw.githubusercontent.com/f-slg/pobecu/main/man/figures/logo.png" width="64" alt="logo de pobecu" /> | [**pobecu**](https://github.com/f-slg/pobecu) | Paquete de R con la población del Ecuador por provincia, cantón y parroquia (INEC, 1950-2050), para calcular tasas, coberturas e indicadores. | R, sf, ggplot2 |
-| <img src="https://raw.githubusercontent.com/f-slg/agenda-fhir-r/main/www/logo.png" width="64" alt="logo de Agenda FHIR" /> | [**Agenda FHIR**](https://github.com/f-slg/agenda-fhir-r) | Prototipo educativo de FHIR TEAM para explorar el agendamiento y la atención clínica con datos sintéticos y un Core simulado. | R, Shiny, HL7 FHIR R4 |
-| <img src="https://raw.githubusercontent.com/f-slg/aprende-fhir/main/imagenes/logo.png" width="64" alt="logo de Aprende FHIR" /> | [**Aprende FHIR**](https://github.com/f-slg/aprende-fhir) | Taller de HL7 FHIR R4 en español, paso a paso: cada recurso explicado con su ficha y construido campo por campo, siguiendo un caso clínico ecuatoriano. Para Postman, R o curl. | HL7 FHIR R4, Postman, R |
+| <img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/logo.png" width="64" alt="logo de fhirviews" /> | [**fhirviews**](https://github.com/f-slg/fhirviews) | Cliente FHIR R4 para R y motor de **SQL on FHIR** (`ViewDefinition`) que convierte recursos en tablas, sin Java ni Spark. 133/133 pruebas *shareable* del banco oficial. | R, FHIR R4, SQL on FHIR, FHIRPath, DuckDB |
+| <img src="https://raw.githubusercontent.com/f-slg/geoecu/main/man/figures/logo.png" width="64" alt="logo de geoecu" /> | [**geoecu**](https://github.com/f-slg/geoecu) <br/> [![CRAN](https://www.r-pkg.org/badges/version/geoecu)](https://CRAN.R-project.org/package=geoecu) | **En CRAN.** Capas de provincias, cantones y parroquias del Ecuador (códigos DPA) como objetos `sf`, a partir de datos abiertos de CONALI. `install.packages("geoecu")` | R, sf, ggplot2 |
+| <img src="https://raw.githubusercontent.com/f-slg/pobecu/main/man/figures/logo.png" width="64" alt="logo de pobecu" /> | [**pobecu**](https://github.com/f-slg/pobecu) | Población del Ecuador por provincia, cantón y parroquia (INEC, 1950-2050) para calcular tasas, coberturas e indicadores. | R, sf, ggplot2 |
+| <img src="https://raw.githubusercontent.com/f-slg/aprende-fhir/main/imagenes/logo.png" width="64" alt="logo de Aprende FHIR" /> | [**Aprende FHIR**](https://github.com/f-slg/aprende-fhir) | Taller de FHIR R4 en español, paso a paso, con un caso clínico ecuatoriano. Para Postman, R o curl. | FHIR R4, Postman, R |
+| <img src="https://raw.githubusercontent.com/f-slg/agenda-fhir-r/main/www/logo.png" width="64" alt="logo de Agenda FHIR" /> | [**Agenda FHIR**](https://github.com/f-slg/agenda-fhir-r) | Prototipo educativo de agendamiento y atención clínica con FHIR TEAM, datos sintéticos y un Core simulado. | R, Shiny, FHIR R4 |
 
-Los proyectos forman un flujo de trabajo completo, del dato clínico estandarizado al indicador territorial:
+Los proyectos encajan en un solo flujo, del dato clínico al mapa:
 
 ```mermaid
 flowchart LR
@@ -98,16 +57,77 @@ flowchart LR
     AG["Agenda FHIR<br/>prototipo en Shiny<br/>(Core simulado)"] -.->|"mismo estándar"| S
 ```
 
-geoecu y pobecu comparten los mismos códigos de la División Político-Administrativa, así que funcionan juntos: con pocas líneas se obtiene un mapa de tasas o de densidad por cantón o parroquia. Con fhirviews, los datos que vienen de un servidor FHIR se convierten en las tablas de casos que pobecu necesita para calcular esas tasas.
+geoecu y pobecu comparten los códigos de la División Político-Administrativa, así que con pocas líneas se obtiene un mapa de tasas por cantón o parroquia. Con fhirviews, los datos de un servidor FHIR se convierten en las tablas de casos que pobecu necesita.
 
-[Explorar mis repositorios](https://github.com/f-slg?tab=repositories)
+## Destacado: fhirviews
 
-## Herramientas en este espacio
+<img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/logo.png" align="right" width="120" alt="logo de fhirviews" />
 
-**R · Shiny · sf · ggplot2 · HL7 FHIR R4 · SQL on FHIR · FHIRPath · JSON · DuckDB · JavaScript (V8) · testthat · pkgdown · Git · GitHub Actions**
+**fhirviews** lleva **HL7 FHIR R4** a R: consulta cualquier servidor FHIR desde RStudio, al estilo de Postman, y convierte los recursos en `data.frame` con el estándar [SQL on FHIR](https://sql-on-fhir.org/).
 
-Los proyectos se acompañan de documentación sobre su funcionamiento, decisiones de diseño y limitaciones: sitios de documentación y ejemplos de uso, notas sobre las fuentes de los datos y, en los paquetes de R (geoecu, pobecu y fhirviews), pruebas automáticas en Windows, macOS y Linux.
+- **Conforme al estándar:** 133 pruebas *shareable* del banco oficial en cada ejecución de integración continua.
+- **Del servidor a la tabla:** búsqueda con paginación, lectura y escritura, transacciones, `$everything`, `$validate` y exportación masiva con `$export`.
+- **Listo para producción:** SMART on FHIR / OAuth2 (*client credentials*, *Backend Services* con JWT, inicio de sesión en navegador).
+- **Grandes volúmenes:** un segundo motor traduce las vistas a SQL de DuckDB y procesa un millón de pacientes en unos 6 segundos en un portátil.
+- **Salud pública:** catálogo de vistas estándar (residencia, signos vitales, diagnósticos CIE-10/SNOMED CT, notificación obligatoria, inmunizaciones) y terminologías (`$expand`, `$lookup`, `$validate-code`).
+
+<img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/README-json-tabla.png" width="100%" alt="De un recurso Patient en JSON, a un ViewDefinition, a una tabla de R" />
+
+[Repositorio](https://github.com/f-slg/fhirviews) · [Documentación](https://f-slg.github.io/fhirviews/) · [Cómo funciona por dentro](https://f-slg.github.io/fhirviews/articles/arquitectura.html) · [Releases](https://github.com/f-slg/fhirviews/releases)
+
+## Hitos
+
+- 🏆 **Conectatón ESAVI-FHIR de OPS (Bogotá, 2023):** el equipo de Ecuador obtuvo el primer lugar al reportar eventos supuestamente atribuibles a la vacunación o inmunización con el estándar FHIR. [Nota del Ministerio de Salud](https://www.salud.gob.ec/?p=80038).
+- 🌎 **Consultor de OPS** en inmunizaciones (vacunación COVID-19) y en la integración de datos de arbovirus para el sistema integrado de vigilancia epidemiológica (SIVE).
+- 🏛️ **Comisión Intersectorial de Salud Digital:** delegación del Ministro de Salud, junto con el CONASA, para coordinar con las instituciones de la RPIS y la RPC las políticas de salud digital.
+- 🧭 **Presidente de HL7 Ecuador:** formación y adopción de estándares de información en salud. Mi contribución figura en [State of FHIR 2026](https://simplifier.net/jurisdictions/EC).
+- 🎓 **Docencia y ponencias** sobre interoperabilidad, HL7 FHIR, SNOMED CT e IA en salud ([Universidad de Cuenca, 2026](https://www.ucuenca.edu.ec/wp-content/uploads/2026/05/CRONOGRAMA-FINAL-2.2.pdf)).
+- 🤝 **Miembro de AIpócrates** y de la Organización Internacional de Telemedicina y Telesalud.
+
+<details>
+<summary><strong>Formación</strong></summary>
+
+<br/>
+
+| Formación | Institución | Estado |
+|---|---|---|
+| Médico General | Universidad Nacional de Loja | 2018 |
+| Magíster en Epidemiología | Universidad Nacional de Loja | 2025 |
+| Doctor en Inteligencia Artificial y Machine Learning (DBA) | Walsh College | En curso |
+| Postgrado en IA y Machine Learning (certificado de educación ejecutiva) | UT Austin McCombs / Great Learning | Completado (2025) |
+| Maestría en Gerencia de Instituciones de Salud | Escuela de Posgrado Newman | En proceso de titulación |
+| Maestría en Inteligencia Artificial | Escuela de Posgrado Newman | En proceso de titulación |
+| Diplomado en Telemedicina y TI en Salud | Universidad de Concepción (Chile) | 2020 |
+| Diplomado en Ciencia de Datos (160 h) | ESAP (Colombia) | 2022 |
+| Programa de especialización en Salud Digital | C-DAC (India), cooperación ITEC | 2025 |
+
+Certificaciones técnicas: fundamentos de interoperabilidad **HL7 International** y fundamentos de **SNOMED CT**; capacitación en **R** (Ministerio de Salud Pública y Sociedad Ecuatoriana de Estadística). Más detalle en [LinkedIn](https://www.linkedin.com/in/fslg/).
+
+</details>
+
+<details>
+<summary><strong>Publicaciones</strong></summary>
+
+<br/>
+
+**Artículos científicos**
+
+- Villagrán Pancho LE, **Salas Guerrero RF**, Rivadeneira Malla YK, Cagua Ordoñez JC, Pérez-Tasigchana RF, Simancas-Racines D, Bejarano Sandoval A. *Metodología en la optimización de bases de datos de los sistemas de información en salud de Ecuador para el monitoreo en tiempo real de eventos críticos para la vigilancia epidemiológica. Reporte de implementación.* Práctica Familiar Rural, 2023; 8(3). [DOI 10.16921/pfr.v8i3.292](https://doi.org/10.16921/pfr.v8i3.292)
+- Ludeña T, Lozano-Samaniego A, Maldonado S, **Salas F**. *El hilio pulmonar: dos signos radiológicos clásicos para descifrarlo.* Radiología, 2020. [DOI 10.1016/j.rx.2020.09.005](https://doi.org/10.1016/j.rx.2020.09.005)
+- Lozano A, Carrillo D, Maldonado S, **Salas F**. *Rendimiento diagnóstico de la tomografía computarizada de tórax en los primeros 422 pacientes con sospecha clínica de COVID-19.* Revista de la Federación Ecuatoriana de Radiología, 2021; 14(2).
+- Pérez-Tasigchana F, et al. (incluye a Salas R). *Effectiveness of COVID-19 vaccines in Ecuador: a test-negative design.* <!-- COMPLETAR: revista, año y DOI -->
+
+**Divulgación en AIpócrates**
+
+- [La interoperabilidad basada en inteligencia artificial: ¿la nueva torre de Babel?](https://aipocrates.blog/2025/03/09/la-interoperabilidad-basada-en-inteligencia-artificial-la-nueva-torre-de-babel/)
+- [El médico, la IA y la autopista cuántica, Parte 1](https://aipocrates.blog/2025/08/03/el-medico-la-ia-y-la-autopista-cuantica-repensando-el-futuro-de-la-medicina-desde-la-interoperabilidad-sistemica-parte-1-2/)
+
+</details>
+
+## Calidad y documentación
+
+Los paquetes de R (geoecu, pobecu y fhirviews) incluyen pruebas automáticas en Windows, macOS y Linux, sitio de documentación con pkgdown y notas sobre las fuentes de datos.
 
 ## Conectemos
 
-Me interesa el intercambio entre medicina, epidemiología, gestión e informática en salud. Para conversar sobre estos temas, puedes encontrarme en [LinkedIn](https://www.linkedin.com/in/fslg/). Las sugerencias y propuestas de colaboración pueden compartirse en los repositorios correspondientes.
+Me interesa el cruce entre medicina, epidemiología, gestión e informática en salud. Escríbeme por [LinkedIn](https://www.linkedin.com/in/fslg/) o abre un *issue* en el repositorio correspondiente. Las colaboraciones sobre FHIR, SQL on FHIR y datos territoriales son bienvenidas.
