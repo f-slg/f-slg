@@ -64,11 +64,41 @@ Capas territoriales del Ecuador por **provincia, cantón y parroquia**, con cód
 [![Versión CRAN](https://www.r-pkg.org/badges/version/geoecu)](https://cran.r-project.org/package=geoecu)
 [![R-CMD-check geoecu](https://github.com/f-slg/geoecu/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/f-slg/geoecu/actions/workflows/R-CMD-check.yaml)
 
-<a href="https://f-slg.github.io/geoecu/articles/galeria.html">
-  <img src="https://raw.githubusercontent.com/f-slg/geoecu/main/man/figures/README-provincias.png" width="100%" alt="Mapa de las provincias del Ecuador por región natural, con nombres y recuadro de Galápagos">
-</a>
+**Ecuador, de la provincia a la parroquia:** tres niveles territoriales con cartografía oficial y colores por región, cantón y tipo de parroquia.
 
-<sub>Datos cartográficos: CONALI. Las geometrías de Galápagos se reubican únicamente para presentación, no para mediciones.</sub>
+<table>
+  <thead>
+    <tr>
+      <th align="center" width="33%">24 provincias<br/><sub>+ 1 zona en estudio</sub></th>
+      <th align="center" width="33%">223 cantones<br/><sub>+ 2 zonas en estudio</sub></th>
+      <th align="center" width="34%">1.048 parroquias<br/><sub>+ 3 zonas en estudio</sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/f-slg/geoecu/blob/main/man/figures/README-provincias.png">
+          <img src="https://raw.githubusercontent.com/f-slg/geoecu/main/man/figures/README-provincias.png" width="100%" alt="Mapa de las 24 provincias coloreadas por región natural: Costa, Sierra, Amazonía e Insular, con Galápagos en recuadro" />
+        </a>
+        <br/><sub>Regiones naturales</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/f-slg/geoecu/blob/main/man/figures/README-cantones.png">
+          <img src="https://raw.githubusercontent.com/f-slg/geoecu/main/man/figures/README-cantones.png" width="100%" alt="Mapa nacional de los cantones del Ecuador, coloreados por cantidad de parroquias" />
+        </a>
+        <br/><sub>Cantones · escala temática</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/f-slg/geoecu/blob/main/man/figures/README-parroquias.png">
+          <img src="https://raw.githubusercontent.com/f-slg/geoecu/main/man/figures/README-parroquias.png" width="100%" alt="Mapa parroquial del Ecuador según tipo de parroquia, con ampliación de Puyango, Loja" />
+        </a>
+        <br/><sub>Tipo de parroquia · detalle de Puyango</sub>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<sub>Fuente: CONALI, División Político-Administrativa. Los conteos distinguen circunscripciones y zonas en estudio. Haz clic en cada mapa para abrirlo a mayor tamaño. Galápagos se reubica solo para visualización, nunca para calcular superficies ni distancias. [Ver la galería detallada y reproducible](https://f-slg.github.io/geoecu/articles/galeria.html).</sub>
 
 ### 03 · pobecu — denominadores para indicadores de salud
 
