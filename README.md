@@ -37,11 +37,23 @@ Cliente **FHIR R4** para R y herramientas de **SQL on FHIR / ViewDefinition**. P
 [![R-CMD-check fhirviews](https://github.com/f-slg/fhirviews/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/f-slg/fhirviews/actions/workflows/R-CMD-check.yaml)
 [![Conformidad documentada](https://img.shields.io/badge/SQL%20on%20FHIR-133%2F133%20shareable-0F6B82)](https://f-slg.github.io/fhirviews/reference/vista_conformidad.html)
 
-<a href="https://github.com/f-slg/fhirviews">
-  <img src="https://raw.githubusercontent.com/f-slg/fhirviews/main/man/figures/README-json-tabla.png" width="100%" alt="Flujo de fhirviews: recurso FHIR en JSON, definición de vista y tabla analítica en R">
-</a>
+**Del recurso clínico a una tabla analítica:**
 
-<sub>Ilustración generada por el proyecto. El resultado de conformidad corresponde a su conjunto publicado de pruebas; no implica certificación externa.</sub>
+```mermaid
+flowchart LR
+    F["Recursos FHIR R4<br/>Patient · Observation · Condition"]
+    V["ViewDefinition<br/>columnas y transformaciones FHIRPath"]
+    E["fhirviews<br/>motor SQL on FHIR"]
+    T["Tabla en R<br/>data.frame"]
+    D["Análisis<br/>DuckDB · ggplot2 · Shiny"]
+
+    F --> E
+    V --> E
+    E --> T
+    T --> D
+```
+
+<sub>Esquema conceptual reproducible en Mermaid. Los recursos FHIR y la ViewDefinition son entradas independientes del motor; el resultado de conformidad publicado corresponde a pruebas de implementación, no a una certificación externa.</sub>
 
 ### 02 · geoecu — cartografía oficial como objetos sf
 
