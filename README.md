@@ -68,7 +68,7 @@ Capas territoriales del Ecuador por **provincia, cantón y parroquia**, con cód
 |---|---|
 | **Tres niveles que encajan** | Cada cantón es la unión de sus parroquias y cada provincia la de sus cantones, sin huecos ni traslapes. |
 | **Dos resoluciones** | `"baja"` (3 MB) para mapas y tableros; `"alta"` (39 MB) para análisis espacial. |
-| **Superficie oficial** | `area_km2` calculada sobre el elipsoide WGS84 con proyección de igual área. |
+| **Superficie calculada sobre cartografía oficial** | `area_km2` calculada sobre el elipsoide WGS84 con proyección de igual área. |
 | **Unión con datos propios** | `geoecu_unir()` une por código DPA aunque vengan de Excel sin ceros iniciales. |
 | **Códigos históricos** | `actualizar_codigo()` convierte códigos de versiones anteriores de la DPA. |
 | **Sin conexión** | Descarga única, verificada con suma MD5 y guardada en caché. |
