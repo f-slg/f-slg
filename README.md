@@ -64,6 +64,15 @@ Capas territoriales del Ecuador por **provincia, cantón y parroquia**, con cód
 [![Versión CRAN](https://www.r-pkg.org/badges/version/geoecu)](https://cran.r-project.org/package=geoecu)
 [![R-CMD-check geoecu](https://github.com/f-slg/geoecu/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/f-slg/geoecu/actions/workflows/R-CMD-check.yaml)
 
+| Qué ofrece | Detalle |
+|---|---|
+| **Tres niveles que encajan** | Cada cantón es la unión de sus parroquias y cada provincia la de sus cantones, sin huecos ni traslapes. |
+| **Dos resoluciones** | `"baja"` (3 MB) para mapas y tableros; `"alta"` (39 MB) para análisis espacial. |
+| **Superficie oficial** | `area_km2` calculada sobre el elipsoide WGS84 con proyección de igual área. |
+| **Unión con datos propios** | `geoecu_unir()` une por código DPA aunque vengan de Excel sin ceros iniciales. |
+| **Códigos históricos** | `actualizar_codigo()` convierte códigos de versiones anteriores de la DPA. |
+| **Sin conexión** | Descarga única, verificada con suma MD5 y guardada en caché. |
+
 **Ecuador, de la provincia a la parroquia:** tres niveles territoriales con cartografía oficial y colores por región, cantón y tipo de parroquia.
 
 <table>
@@ -102,17 +111,35 @@ Capas territoriales del Ecuador por **provincia, cantón y parroquia**, con cód
 
 ### 03 · pobecu — denominadores para indicadores de salud
 
-[**Repositorio**](https://github.com/f-slg/pobecu) · [Documentación](https://f-slg.github.io/pobecu/)
+[**Repositorio**](https://github.com/f-slg/pobecu) · [Documentación](https://f-slg.github.io/pobecu/) · [Metodología](https://f-slg.github.io/pobecu/articles/metodologia.html) · [Mapas con geoecu](https://f-slg.github.io/pobecu/articles/pobecu-geoecu.html)
 
-Herramientas de población del Ecuador con desagregación territorial y códigos DPA, basadas en datos del **INEC**. Diseñado para trabajar con denominadores de tasas, coberturas y otros indicadores, junto con `geoecu`.
+Población del Ecuador por **provincia, cantón y parroquia**, lista para usar como denominador de tasas, coberturas e indicadores de salud. Usa las **estimaciones y proyecciones oficiales del INEC (Revisión 2024)** con los códigos DPA del Censo 2022 y se integra con `geoecu` para mapear.
 
 [![R-CMD-check pobecu](https://github.com/f-slg/pobecu/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/f-slg/pobecu/actions/workflows/R-CMD-check.yaml)
 
 <a href="https://github.com/f-slg/pobecu">
-  <img src="https://raw.githubusercontent.com/f-slg/pobecu/main/man/figures/README-principal.png" width="100%" alt="Visualización de datos poblacionales del Ecuador generada por pobecu">
+  <img src="https://raw.githubusercontent.com/f-slg/pobecu/main/man/figures/README-principal.png" width="100%" alt="Tres paneles: población del Ecuador 1950-2050, pirámides de 2025 y 2050, y densidad de población de los 221 cantones en 2025">
 </a>
 
-<sub>Las estimaciones y proyecciones deben interpretarse según su año, fuente y metodología de origen.</sub>
+<sub>Serie nacional, pirámide por sexo y edad, y densidad cantonal. Fuente: INEC, Revisión 2024.</sub>
+
+| Nivel | Años | Desagregación | Naturaleza |
+|---|---|---|---|
+| Nacional | 1950–2050 | Sexo, edad simple o quinquenal, urbano/rural (2010–2035) | Oficial INEC |
+| Provincia | 1990–2035 | Sexo, edad simple o quinquenal, urbano/rural (2010–2035) | Oficial INEC |
+| Cantón | 2010–2035 | Sexo, edad simple o quinquenal, urbano/rural | Oficial INEC |
+| Parroquia | 2010–2035 | Sexo y edad quinquenal | Estimación propia, coherente con el total cantonal |
+
+- **Tasas en una línea:** `pob_tasa()` une los casos con su población por territorio, año, sexo y edad, y calcula la tasa.
+- **Códigos de cualquier fuente:** `homologar_parroquia()` y `homologar_canton()` llevan los códigos de parroquias urbanas y de la DPA del CONALI 2026 a las unidades del censo.
+- **Auditado contra los Excel del INEC:** más de seis millones de celdas comprobadas sin diferencias ([validación reproducible](https://github.com/f-slg/pobecu/tree/main/validacion)).
+- **Escenarios 1900–2100 (en desarrollo):** `pob_ajustar()` y `pob_estimar()` extienden las series territoriales con modelos estructurales amortiguados, bandas Monte Carlo y totales coherentes en toda la jerarquía.
+
+<a href="https://github.com/f-slg/pobecu#13-reconstrucción-y-escenarios-de-población-19002100">
+  <img src="https://raw.githubusercontent.com/f-slg/pobecu/main/man/figures/README-modelo-nacional-1.png" width="80%" alt="Población del Ecuador 1900-2100: trayectoria INEC 1950-2050 y extensión del modelo con bandas condicionales">
+</a>
+
+<sub>Los extremos de 1900 y 2100 son reconstrucciones y escenarios condicionados a supuestos, no cifras oficiales ni predicciones validadas. Las cifras parroquiales son estimaciones de pobecu.</sub>
 
 ## Cómo se relacionan
 
@@ -128,6 +155,30 @@ flowchart LR
 ```
 
 <sub>Arquitectura conceptual de uso combinado: los paquetes son independientes y el diagrama no representa un sistema productivo único.</sub>
+
+**Juntos, pobecu y geoecu:** población del INEC dividida por la superficie de cada territorio, de la provincia a la parroquia.
+
+<a href="https://github.com/f-slg/geoecu#6-densidad-poblacional-provincias-cantones-y-parroquias">
+  <img src="https://raw.githubusercontent.com/f-slg/geoecu/main/man/figures/README-densidad.png" width="100%" alt="Tres mapas del Ecuador con la densidad poblacional en habitantes por km² por provincia, cantón y parroquia, con escala logarítmica común">
+</a>
+
+<sub>Población 2026 del INEC (vía pobecu) / `area_km2` de geoecu. Las cifras parroquiales son estimaciones de pobecu; en gris, zonas en estudio sin población asignada.</sub>
+
+Del registro de casos a un mapa de tasas, en pocas líneas de R:
+
+```r
+library(pobecu)   # denominadores del INEC
+library(ggplot2)
+
+casos <- data.frame(dpa_canton = c("1101", "1102", "1110"), anio = 2025,
+                    casos = c(120, 8, 15))          # datos ficticios
+tasas <- pob_tasa(casos, "casos", por = 1e5)        # casos por 100 000 hab.
+
+mapa <- pob_mapa("canton", anio = 2025, provincia = "Loja")   # capa de geoecu
+mapa <- merge(mapa, tasas[c("dpa_canton", "tasa")], by = "dpa_canton", all.x = TRUE)
+
+ggplot(mapa) + geom_sf(aes(fill = tasa)) + theme_void()
+```
 
 ## Aprendizaje y prototipos
 
