@@ -111,6 +111,7 @@ flowchart LR
 Del registro de casos a un mapa de tasas. El **[ejemplo completo y reproducible](https://f-slg.github.io/fhirviews/articles/tasas-pobecu.html)** parte de recursos FHIR sintéticos y llega al mapa; aquí, la versión corta:
 
 ```r
+# install.packages(c("pobecu", "geoecu", "sf", "ggplot2"))   # desde CRAN
 library(pobecu)   # denominadores del INEC
 library(ggplot2)
 

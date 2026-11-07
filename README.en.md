@@ -111,6 +111,7 @@ flowchart LR
 From a case register to a map of rates. The **[complete, reproducible example](https://f-slg.github.io/fhirviews/articles/tasas-pobecu.html)** (in Spanish) starts from synthetic FHIR resources and ends with the map; here is the short version:
 
 ```r
+# install.packages(c("pobecu", "geoecu", "sf", "ggplot2"))   # from CRAN
 library(pobecu)   # INEC denominators
 library(ggplot2)
 
