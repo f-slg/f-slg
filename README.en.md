@@ -17,9 +17,18 @@
 
 ### Closing the gap between clinical practice, data engineering and AI
 
-I turn fragmented health systems into **interoperable, secure and scalable ecosystems** that deliver timely information for epidemiological surveillance, health management and public health decisions. What sets me apart is combining **clinical and epidemiological knowledge** with a technical profile in **data architecture and data science**.
+I turn fragmented health systems into **interoperable, reproducible ecosystems** that deliver timely information for epidemiological surveillance, health management and public health decisions. What sets me apart is combining **clinical and epidemiological knowledge** with a technical profile in **data architecture and data science**.
 
-I chair **[HL7 Ecuador](https://www.hl7ecuador.org/)**, promoting the adoption of interoperability standards and health data governance. I work end to end: from **clinical standards and terminologies** (FSH implementation guides, SQL on FHIR) to **data architecture and engineering** (HAPI FHIR, Kafka, PostgreSQL with a *medallion* architecture, DuckDB, Python ETL, Docker) and **analytics** (R, Shiny, Quarto, `sf`, forecasting and anomaly detection for surveillance). I mostly develop in R, Python, SQL and TypeScript.
+I chair **[HL7 Ecuador](https://www.hl7ecuador.org/)**, promoting the adoption of interoperability standards and health data governance. An example of how I work: [from FHIR resources to a map of rates, step by step and reproducible](https://f-slg.github.io/fhirviews/articles/tasas-pobecu.html) (in Spanish).
+
+<details>
+<summary><strong>Technical stack</strong></summary>
+
+<br>
+
+I work end to end: from **clinical standards and terminologies** (FSH implementation guides, SQL on FHIR) to **data architecture and engineering** (HAPI FHIR, Kafka, PostgreSQL with a *medallion* architecture, DuckDB, Python ETL, Docker) and **analytics** (R, Shiny, Quarto, `sf`, forecasting and anomaly detection for surveillance). I mostly develop in R, Python, SQL and TypeScript.
+
+</details>
 
 <p align="center">
   <a href="#r-packages">Packages</a> ·
