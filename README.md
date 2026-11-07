@@ -96,7 +96,7 @@ flowchart LR
     I --> G["geoecu<br/>Mapas DPA"]
 ```
 
-Del registro de casos a un mapa de tasas:
+Del registro de casos a un mapa de tasas. El **[ejemplo completo y reproducible](https://f-slg.github.io/fhirviews/articles/tasas-pobecu.html)** parte de recursos FHIR sintéticos y llega al mapa; aquí, la versión corta:
 
 ```r
 library(pobecu)   # denominadores del INEC
