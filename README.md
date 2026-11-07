@@ -1,6 +1,8 @@
 <h1 align="center">Dr. Fabricio Salas Guerrero</h1>
 
-<p align="center"><strong>Médico epidemiólogo · Presidente de HL7 Ecuador · Arquitectura e ingeniería de datos en salud · Interoperabilidad clínica · IA y salud digital · Docente de posgrado</strong></p>
+<p align="center"><strong>Médico epidemiólogo que une clínica, datos e inteligencia artificial</strong></p>
+<p align="center">Interoperabilidad clínica · Arquitectura e ingeniería de datos en salud · IA y salud digital · Docencia de posgrado</p>
+<p align="center"><sub>HL7 FHIR · SNOMED CT · LOINC · CIE-11 · DICOM · IHE · openEHR · GS1 Healthcare</sub></p>
 
 <p align="center"><strong>Español</strong> · <a href="https://github.com/f-slg/f-slg/blob/main/README.en.md">English</a></p>
 
@@ -13,11 +15,11 @@
 
 ---
 
-### De datos clínicos interoperables a inteligencia territorial
+### Cierro la brecha entre la práctica clínica, la ingeniería de datos y la IA
 
-Desarrollo herramientas abiertas que conectan **estándares clínicos, bases de datos, analítica y cartografía**, para convertir información dispersa en datos reutilizables para investigación, vigilancia epidemiológica y decisiones en salud pública.
+Transformo sistemas de salud fragmentados en **ecosistemas interoperables, seguros y escalables**, capaces de generar información oportuna para la vigilancia epidemiológica, la gestión sanitaria y las decisiones en salud pública. Mi diferencial es combinar el **conocimiento clínico y epidemiológico** con un perfil técnico en **arquitectura y ciencia de datos**.
 
-Presido **[HL7 Ecuador](https://www.hl7ecuador.org/)**. Trabajo de punta a punta: desde **estándares** (HL7 FHIR R4, SNOMED CT, LOINC, CIE-11, openEHR, perfiles IHE, guías de implementación en FSH, SQL on FHIR) hasta **arquitectura e ingeniería de datos** (HAPI FHIR, Kafka, PostgreSQL con arquitectura *medallion*, DuckDB, ETL en Python, Docker) y **analítica** (R, Shiny, Quarto, `sf`, pronóstico y detección de anomalías para vigilancia). Desarrollo sobre todo en R, Python, SQL y TypeScript.
+Presido **[HL7 Ecuador](https://www.hl7ecuador.org/)**, donde impulso la adopción de estándares de interoperabilidad y gobernanza de datos en salud. Trabajo de punta a punta: desde **estándares clínicos y terminologías** (guías de implementación en FSH, SQL on FHIR) hasta **arquitectura e ingeniería de datos** (HAPI FHIR, Kafka, PostgreSQL con arquitectura *medallion*, DuckDB, ETL en Python, Docker) y **analítica** (R, Shiny, Quarto, `sf`, pronóstico y detección de anomalías para vigilancia). Desarrollo sobre todo en R, Python, SQL y TypeScript.
 
 <p align="center">
   <a href="#paquetes-de-r">Paquetes</a> ·

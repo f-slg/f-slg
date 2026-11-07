@@ -1,6 +1,8 @@
 <h1 align="center">Dr. Fabricio Salas Guerrero</h1>
 
-<p align="center"><strong>Physician epidemiologist · Chair of HL7 Ecuador · Health data architecture and engineering · Clinical interoperability · AI and digital health · Graduate lecturer</strong></p>
+<p align="center"><strong>Physician epidemiologist bridging clinical practice, data and artificial intelligence</strong></p>
+<p align="center">Clinical interoperability · Health data architecture and engineering · AI and digital health · Graduate teaching</p>
+<p align="center"><sub>HL7 FHIR · SNOMED CT · LOINC · ICD-11 · DICOM · IHE · openEHR · GS1 Healthcare</sub></p>
 
 <p align="center"><a href="https://github.com/f-slg">Español</a> · <strong>English</strong></p>
 
@@ -13,11 +15,11 @@
 
 ---
 
-### From interoperable clinical data to territorial intelligence
+### Closing the gap between clinical practice, data engineering and AI
 
-I build open tools that connect **clinical standards, databases, analytics and cartography**, turning scattered information into reusable data for research, epidemiological surveillance and public health decisions.
+I turn fragmented health systems into **interoperable, secure and scalable ecosystems** that deliver timely information for epidemiological surveillance, health management and public health decisions. What sets me apart is combining **clinical and epidemiological knowledge** with a technical profile in **data architecture and data science**.
 
-I chair **[HL7 Ecuador](https://www.hl7ecuador.org/)**. I work end to end: from **standards** (HL7 FHIR R4, SNOMED CT, LOINC, ICD-11, openEHR, IHE profiles, FSH implementation guides, SQL on FHIR) to **data architecture and engineering** (HAPI FHIR, Kafka, PostgreSQL with a *medallion* architecture, DuckDB, Python ETL, Docker) and **analytics** (R, Shiny, Quarto, `sf`, forecasting and anomaly detection for surveillance). I mostly develop in R, Python, SQL and TypeScript.
+I chair **[HL7 Ecuador](https://www.hl7ecuador.org/)**, promoting the adoption of interoperability standards and health data governance. I work end to end: from **clinical standards and terminologies** (FSH implementation guides, SQL on FHIR) to **data architecture and engineering** (HAPI FHIR, Kafka, PostgreSQL with a *medallion* architecture, DuckDB, Python ETL, Docker) and **analytics** (R, Shiny, Quarto, `sf`, forecasting and anomaly detection for surveillance). I mostly develop in R, Python, SQL and TypeScript.
 
 <p align="center">
   <a href="#r-packages">Packages</a> ·
