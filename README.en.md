@@ -96,7 +96,7 @@ flowchart LR
     I --> G["geoecu<br/>DPA maps"]
 ```
 
-From a case register to a map of rates:
+From a case register to a map of rates. The **[complete, reproducible example](https://f-slg.github.io/fhirviews/articles/tasas-pobecu.html)** (in Spanish) starts from synthetic FHIR resources and ends with the map; here is the short version:
 
 ```r
 library(pobecu)   # INEC denominators
