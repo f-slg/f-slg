@@ -1,6 +1,6 @@
 <h1 align="center">Dr. Fabricio Salas Guerrero</h1>
 
-<p align="center"><strong>Physician epidemiologist · Digital health · Clinical interoperability · Data engineering</strong></p>
+<p align="center"><strong>Physician epidemiologist · Chair of HL7 Ecuador · Health data architecture and engineering · Clinical interoperability · AI and digital health · Graduate lecturer</strong></p>
 
 <p align="center"><a href="https://github.com/f-slg">Español</a> · <strong>English</strong></p>
 
@@ -17,12 +17,13 @@
 
 I build open tools that connect **clinical standards, databases, analytics and cartography**, turning scattered information into reusable data for research, epidemiological surveillance and public health decisions.
 
-I chair **[HL7 Ecuador](https://www.hl7ecuador.org/)**. I work with **R, HL7 FHIR R4, SQL on FHIR, DuckDB, `sf` and Shiny**, and publish material to learn from and reproduce results.
+I chair **[HL7 Ecuador](https://www.hl7ecuador.org/)**. I work end to end: from **standards** (HL7 FHIR R4, SNOMED CT, LOINC, ICD-11, openEHR, IHE profiles, FSH implementation guides, SQL on FHIR) to **data architecture and engineering** (HAPI FHIR, Kafka, PostgreSQL with a *medallion* architecture, DuckDB, Python ETL, Docker) and **analytics** (R, Shiny, Quarto, `sf`, forecasting and anomaly detection for surveillance). I mostly develop in R, Python, SQL and TypeScript.
 
 <p align="center">
   <a href="#r-packages">Packages</a> ·
   <a href="#how-they-fit-together">Architecture</a> ·
   <a href="#learning-and-prototypes">Learning</a> ·
+  <a href="#institutional-and-collaborative-work">Other work</a> ·
   <a href="#research-and-background">Research</a> ·
   <a href="#collaboration">Contact</a>
 </p>
@@ -123,14 +124,27 @@ ggplot(mapa) + geom_sf(aes(fill = tasa)) + theme_void()
 | Project | What it is |
 |---|---|
 | [**Aprende FHIR**](https://github.com/f-slg/aprende-fhir) · [site](https://f-slg.github.io/aprende-fhir/) | Step-by-step HL7 FHIR R4 workshop in Spanish, with one card per resource and an Ecuadorian clinical case, for Postman, R or curl. |
-| [**Agenda FHIR**](https://github.com/f-slg/agenda-fhir-r) | Educational prototype of a clinical scheduling app in R/Shiny with FHIR resources and synthetic data. |
+| [**Agenda FHIR**](https://github.com/f-slg/agenda-fhir-r) | Educational prototype of a clinical scheduling app in R/Shiny with FHIR resources and synthetic data, built with Catherine Solarte Godoy and Néstor Fabián López at HL7 Colombia's FHIR Camp. |
 | [**sql-on-fhir.js**](https://github.com/f-slg/sql-on-fhir.js) | My fork of the SQL on FHIR reference implementation, used to contribute the fhirviews conformance report. |
 
 Public examples use synthetic or open data. Prototypes are educational and do not replace institutional validation or clinical certification.
 
+## Institutional and collaborative work
+
+Much of my work lives in private or shared repositories not listed above:
+
+- **HL7 FHIR R4 implementation guides for Ecuador**, written in FSH: base profiles, interoperability and a master patient index with IHE profiles. Draft.
+- **Standards-based epidemiological surveillance platform**: validated ingestion, HAPI FHIR repository, Kafka events (CloudEvents), rules engine and alert workflow. Tested with synthetic data.
+- **Surveillance of healthcare-associated infections and outbreaks**: Python validation engine, *medallion* ETL on PostgreSQL and Shiny dashboards using geoecu.
+- **Health situation room** in R/Shiny on PostgreSQL and Docker, with endemic channels, ARIMA forecasts, anomaly detection and automatic PDF reports.
+- **Open book in preparation**: *Data science with R for public health* (in Spanish), built with Quarto, with cases from Ecuador and Latin America.
+- **Collaborative research** on big data and artificial intelligence in health.
+
 ## Research and background
 
-- **HL7 Ecuador:** chair; promotion of interoperability standards. [HL7 Ecuador chapter](https://www.hl7ecuador.org/) · [Activity](https://www.linkedin.com/company/hl7-ecuador/).
+- **HL7 Ecuador:** chair since 2025 (previously co-chair), promoting semantic and syntactic interoperability standards. [HL7 Ecuador chapter](https://www.hl7ecuador.org/) · [Activity](https://www.linkedin.com/company/hl7-ecuador/).
+- **Ministry of Public Health of Ecuador:** epidemiologist and data analyst in national epidemiological surveillance; previously district health director and primary care physician in Loja.
+- **Graduate teaching** in medical informatics, data analytics and health information systems (Universidad UTE, Universidad Continental) and in the IAEN School of Public Health telemedicine course.
 - **Universidad Nacional de Loja:** [Cienf 2026 scientific committee](https://unl.edu.ec/cienf2026/comite-cientifico).
 - Villagrán Pancho LE, **Salas Guerrero RF**, et al. *Metodología en la optimización de bases de datos de los sistemas de información en salud de Ecuador para el monitoreo en tiempo real de eventos críticos para la vigilancia epidemiológica* [Methodology for optimising Ecuador's health information system databases for real-time monitoring of critical events in epidemiological surveillance]. **Práctica Familiar Rural** (2023). [DOI: 10.16921/pfr.v8i3.292](https://doi.org/10.16921/pfr.v8i3.292).
 - Pérez-Tasigchana F, et al. (including **Ronald Salas**). *Effectiveness of COVID-19 vaccines in Ecuador: A test-negative design*. **Vaccine: X** 15 (2023), 100404. [DOI: 10.1016/j.jvacx.2023.100404](https://doi.org/10.1016/j.jvacx.2023.100404) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38033879/).
@@ -139,10 +153,10 @@ Public examples use synthetic or open data. Prototypes are educational and do no
 <summary><strong>Education</strong></summary>
 
 - MD and MSc in Epidemiology, Universidad Nacional de Loja.
-- **DBA in progress**, Walsh College, focused on AI and machine learning applications.
+- **Doctorate in Artificial Intelligence and Machine Learning in progress**, Walsh College (2025–2028).
+- Postgraduate Program in Artificial Intelligence and Machine Learning: Business Applications, The University of Texas at Austin (2025).
+- SNOMED CT Foundation course, SNOMED International (2026). FHIR Camp, HL7 Colombia (2026).
 - Training in healthcare management, telemedicine, interoperability and data science.
-- Executive education in AI/ML with UT Austin McCombs / Great Learning.
-- FHIR standards and terminologies such as SNOMED CT.
 
 Up-to-date academic history, positions and certifications on [LinkedIn](https://www.linkedin.com/in/fslg/).
 

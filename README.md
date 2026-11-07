@@ -1,6 +1,6 @@
 <h1 align="center">Dr. Fabricio Salas Guerrero</h1>
 
-<p align="center"><strong>Médico epidemiólogo · Salud digital · Interoperabilidad clínica · Ingeniería de datos</strong></p>
+<p align="center"><strong>Médico epidemiólogo · Presidente de HL7 Ecuador · Arquitectura e ingeniería de datos en salud · Interoperabilidad clínica · IA y salud digital · Docente de posgrado</strong></p>
 
 <p align="center"><strong>Español</strong> · <a href="https://github.com/f-slg/f-slg/blob/main/README.en.md">English</a></p>
 
@@ -17,12 +17,13 @@
 
 Desarrollo herramientas abiertas que conectan **estándares clínicos, bases de datos, analítica y cartografía**, para convertir información dispersa en datos reutilizables para investigación, vigilancia epidemiológica y decisiones en salud pública.
 
-Presido **[HL7 Ecuador](https://www.hl7ecuador.org/)**. Trabajo con **R, HL7 FHIR R4, SQL on FHIR, DuckDB, `sf` y Shiny**, y publico materiales para aprender y reproducir resultados.
+Presido **[HL7 Ecuador](https://www.hl7ecuador.org/)**. Trabajo de punta a punta: desde **estándares** (HL7 FHIR R4, SNOMED CT, LOINC, CIE-11, openEHR, perfiles IHE, guías de implementación en FSH, SQL on FHIR) hasta **arquitectura e ingeniería de datos** (HAPI FHIR, Kafka, PostgreSQL con arquitectura *medallion*, DuckDB, ETL en Python, Docker) y **analítica** (R, Shiny, Quarto, `sf`, pronóstico y detección de anomalías para vigilancia). Desarrollo sobre todo en R, Python, SQL y TypeScript.
 
 <p align="center">
   <a href="#paquetes-de-r">Paquetes</a> ·
   <a href="#cómo-se-relacionan">Arquitectura</a> ·
   <a href="#aprendizaje-y-prototipos">Aprendizaje</a> ·
+  <a href="#trabajo-institucional-y-colaborativo">Otros proyectos</a> ·
   <a href="#investigación-y-trayectoria">Investigación</a> ·
   <a href="#colaboración">Contacto</a>
 </p>
@@ -123,14 +124,27 @@ ggplot(mapa) + geom_sf(aes(fill = tasa)) + theme_void()
 | Proyecto | Para qué sirve |
 |---|---|
 | [**Aprende FHIR**](https://github.com/f-slg/aprende-fhir) · [sitio](https://f-slg.github.io/aprende-fhir/) | Taller de HL7 FHIR R4 en español, paso a paso, con fichas por recurso y un caso clínico ecuatoriano, para Postman, R o curl. |
-| [**Agenda FHIR**](https://github.com/f-slg/agenda-fhir-r) | Prototipo educativo de agenda clínica en R/Shiny con recursos FHIR y datos sintéticos. |
+| [**Agenda FHIR**](https://github.com/f-slg/agenda-fhir-r) | Prototipo educativo de agenda clínica en R/Shiny con recursos FHIR y datos sintéticos, construido con Catherine Solarte Godoy y Néstor Fabián López en el FHIR Camp de HL7 Colombia. |
 | [**sql-on-fhir.js**](https://github.com/f-slg/sql-on-fhir.js) | Mi *fork* de la implementación de referencia de SQL on FHIR, para contribuir el informe de conformidad de fhirviews. |
 
 Los ejemplos públicos usan información sintética o de fuentes abiertas. Los prototipos son educativos y no sustituyen la validación institucional ni la certificación clínica.
 
+## Trabajo institucional y colaborativo
+
+Buena parte de mi trabajo está en repositorios privados o compartidos, que no aparecen arriba:
+
+- **Guías de implementación HL7 FHIR R4 para Ecuador**, escritas en FSH: perfiles base, interoperabilidad e índice maestro de pacientes con perfiles IHE. En borrador.
+- **Plataforma de vigilancia epidemiológica basada en estándares**: ingesta validada, repositorio HAPI FHIR, eventos con Kafka (CloudEvents), motor de reglas y ciclo de alertas. Probada con datos sintéticos.
+- **Vigilancia de infecciones asociadas a la atención en salud y brotes**: motor de validación en Python, ETL *medallion* en PostgreSQL y tableros Shiny con geoecu.
+- **Sala situacional de salud** en R/Shiny sobre PostgreSQL y Docker, con canal endémico, pronósticos ARIMA, detección de anomalías y reportes PDF automáticos.
+- **Libro abierto en preparación**: *Ciencia de datos con R para la salud pública*, en Quarto, con casos de Ecuador y Latinoamérica.
+- **Investigación colaborativa** sobre big data e inteligencia artificial en salud.
+
 ## Investigación y trayectoria
 
-- **HL7 Ecuador:** presidencia y promoción de estándares de interoperabilidad. [Capítulo HL7 Ecuador](https://www.hl7ecuador.org/) · [Actividad institucional](https://www.linkedin.com/company/hl7-ecuador/).
+- **HL7 Ecuador:** presidente desde 2025 (antes, co-chair). Impulso la adopción de estándares de interoperabilidad semántica y sintáctica. [Capítulo HL7 Ecuador](https://www.hl7ecuador.org/) · [Actividad institucional](https://www.linkedin.com/company/hl7-ecuador/).
+- **Ministerio de Salud Pública del Ecuador:** médico epidemiólogo y analista de datos en vigilancia epidemiológica nacional; antes, director distrital de salud y médico del primer nivel en Loja.
+- **Docencia de posgrado** en informática médica, analítica de datos y sistemas de información en salud (Universidad UTE, Universidad Continental) y en el curso de Telemedicina de la Escuela de Salud Pública del IAEN.
 - **Universidad Nacional de Loja:** [comité científico Cienf 2026](https://unl.edu.ec/cienf2026/comite-cientifico).
 - Villagrán Pancho LE, **Salas Guerrero RF**, et al. *Metodología en la optimización de bases de datos de los sistemas de información en salud de Ecuador para el monitoreo en tiempo real de eventos críticos para la vigilancia epidemiológica*. **Práctica Familiar Rural** (2023). [DOI: 10.16921/pfr.v8i3.292](https://doi.org/10.16921/pfr.v8i3.292).
 - Pérez-Tasigchana F, et al. (incluye a **Ronald Salas**). *Effectiveness of COVID-19 vaccines in Ecuador: A test-negative design*. **Vaccine: X** 15 (2023), 100404. [DOI: 10.1016/j.jvacx.2023.100404](https://doi.org/10.1016/j.jvacx.2023.100404) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38033879/).
@@ -139,10 +153,10 @@ Los ejemplos públicos usan información sintética o de fuentes abiertas. Los p
 <summary><strong>Formación</strong></summary>
 
 - Medicina y maestría en Epidemiología, Universidad Nacional de Loja.
-- **DBA en curso**, Walsh College, orientado a aplicaciones de IA y *machine learning*.
+- **Doctorado en Inteligencia Artificial y *Machine Learning* en curso**, Walsh College (2025–2028).
+- Postgraduate Program in Artificial Intelligence and Machine Learning: Business Applications, The University of Texas at Austin (2025).
+- Curso de fundamentos de SNOMED CT, SNOMED International (2026). FHIR Camp de HL7 Colombia (2026).
 - Formación en gerencia de instituciones de salud, telemedicina, interoperabilidad y ciencia de datos.
-- Educación ejecutiva en IA/ML con UT Austin McCombs / Great Learning.
-- Estándares FHIR y terminologías como SNOMED CT.
 
 Historial académico, cargos y certificaciones actualizados en [LinkedIn](https://www.linkedin.com/in/fslg/).
 
