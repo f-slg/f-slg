@@ -1,8 +1,33 @@
 <h1 align="center">Dr. Fabricio Salas Guerrero</h1>
 
-<p align="center"><strong>Médico epidemiólogo · Presidente de HL7 Ecuador · Arquitectura e ingeniería de datos en salud · Interoperabilidad clínica · IA y salud digital · Docente de posgrado</strong></p>
+<p align="center"><strong>Médico epidemiólogo que une clínica, datos e inteligencia artificial</strong></p>
+<p align="center">Interoperabilidad clínica · Arquitectura e ingeniería de datos en salud · IA y salud digital · Docencia de posgrado</p>
 
 <p align="center"><strong>Español</strong> · <a href="https://github.com/f-slg/f-slg/blob/main/README.en.md">English</a></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HL7%20FHIR%20R4-0F6B82?style=flat-square" alt="HL7 FHIR R4">
+  <img src="https://img.shields.io/badge/SNOMED%20CT-0F6B82?style=flat-square" alt="SNOMED CT">
+  <img src="https://img.shields.io/badge/LOINC-0F6B82?style=flat-square" alt="LOINC">
+  <img src="https://img.shields.io/badge/CIE--11-0F6B82?style=flat-square" alt="CIE-11">
+  <img src="https://img.shields.io/badge/DICOM-0F6B82?style=flat-square" alt="DICOM">
+  <img src="https://img.shields.io/badge/IHE-0F6B82?style=flat-square" alt="IHE">
+  <img src="https://img.shields.io/badge/openEHR-0F6B82?style=flat-square" alt="openEHR">
+  <img src="https://img.shields.io/badge/GS1%20Healthcare-0F6B82?style=flat-square" alt="GS1 Healthcare">
+  <img src="https://img.shields.io/badge/SQL%20on%20FHIR-0F6B82?style=flat-square" alt="SQL on FHIR">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/R-0F2233?style=flat-square" alt="R">
+  <img src="https://img.shields.io/badge/Python-0F2233?style=flat-square" alt="Python">
+  <img src="https://img.shields.io/badge/SQL-0F2233?style=flat-square" alt="SQL">
+  <img src="https://img.shields.io/badge/TypeScript-0F2233?style=flat-square" alt="TypeScript">
+  <img src="https://img.shields.io/badge/PostgreSQL-0F2233?style=flat-square" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Kafka-0F2233?style=flat-square" alt="Kafka">
+  <img src="https://img.shields.io/badge/HAPI%20FHIR-0F2233?style=flat-square" alt="HAPI FHIR">
+  <img src="https://img.shields.io/badge/DuckDB-0F2233?style=flat-square" alt="DuckDB">
+  <img src="https://img.shields.io/badge/Docker-0F2233?style=flat-square" alt="Docker">
+  <img src="https://img.shields.io/badge/Shiny-0F2233?style=flat-square" alt="Shiny">
+</p>
 
 <p align="center">
   <a href="https://www.hl7ecuador.org/">HL7 Ecuador</a> ·
@@ -13,11 +38,11 @@
 
 ---
 
-### De datos clínicos interoperables a inteligencia territorial
+### Cierro la brecha entre la práctica clínica, la ingeniería de datos y la IA
 
-Desarrollo herramientas abiertas que conectan **estándares clínicos, bases de datos, analítica y cartografía**, para convertir información dispersa en datos reutilizables para investigación, vigilancia epidemiológica y decisiones en salud pública.
+Transformo sistemas de salud fragmentados en **ecosistemas interoperables, seguros y escalables**, capaces de generar información oportuna para la vigilancia epidemiológica, la gestión sanitaria y las decisiones en salud pública. Mi diferencial es combinar el **conocimiento clínico y epidemiológico** con un perfil técnico en **arquitectura y ciencia de datos**.
 
-Presido **[HL7 Ecuador](https://www.hl7ecuador.org/)**. Trabajo de punta a punta: desde **estándares** (HL7 FHIR R4, SNOMED CT, LOINC, CIE-11, openEHR, perfiles IHE, guías de implementación en FSH, SQL on FHIR) hasta **arquitectura e ingeniería de datos** (HAPI FHIR, Kafka, PostgreSQL con arquitectura *medallion*, DuckDB, ETL en Python, Docker) y **analítica** (R, Shiny, Quarto, `sf`, pronóstico y detección de anomalías para vigilancia). Desarrollo sobre todo en R, Python, SQL y TypeScript.
+Presido **[HL7 Ecuador](https://www.hl7ecuador.org/)**, donde impulso la adopción de estándares de interoperabilidad y gobernanza de datos en salud. Trabajo de punta a punta: desde **estándares** (HL7 FHIR R4, SNOMED CT, LOINC, CIE-11, DICOM, perfiles IHE, openEHR, GS1 Healthcare, guías de implementación en FSH, SQL on FHIR) hasta **arquitectura e ingeniería de datos** (HAPI FHIR, Kafka, PostgreSQL con arquitectura *medallion*, DuckDB, ETL en Python, Docker) y **analítica** (R, Shiny, Quarto, `sf`, pronóstico y detección de anomalías para vigilancia). Desarrollo sobre todo en R, Python, SQL y TypeScript.
 
 <p align="center">
   <a href="#paquetes-de-r">Paquetes</a> ·

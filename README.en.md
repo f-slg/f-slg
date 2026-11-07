@@ -1,8 +1,33 @@
 <h1 align="center">Dr. Fabricio Salas Guerrero</h1>
 
-<p align="center"><strong>Physician epidemiologist · Chair of HL7 Ecuador · Health data architecture and engineering · Clinical interoperability · AI and digital health · Graduate lecturer</strong></p>
+<p align="center"><strong>Physician epidemiologist bridging clinical practice, data and artificial intelligence</strong></p>
+<p align="center">Clinical interoperability · Health data architecture and engineering · AI and digital health · Graduate teaching</p>
 
 <p align="center"><a href="https://github.com/f-slg">Español</a> · <strong>English</strong></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/HL7%20FHIR%20R4-0F6B82?style=flat-square" alt="HL7 FHIR R4">
+  <img src="https://img.shields.io/badge/SNOMED%20CT-0F6B82?style=flat-square" alt="SNOMED CT">
+  <img src="https://img.shields.io/badge/LOINC-0F6B82?style=flat-square" alt="LOINC">
+  <img src="https://img.shields.io/badge/ICD--11-0F6B82?style=flat-square" alt="ICD-11">
+  <img src="https://img.shields.io/badge/DICOM-0F6B82?style=flat-square" alt="DICOM">
+  <img src="https://img.shields.io/badge/IHE-0F6B82?style=flat-square" alt="IHE">
+  <img src="https://img.shields.io/badge/openEHR-0F6B82?style=flat-square" alt="openEHR">
+  <img src="https://img.shields.io/badge/GS1%20Healthcare-0F6B82?style=flat-square" alt="GS1 Healthcare">
+  <img src="https://img.shields.io/badge/SQL%20on%20FHIR-0F6B82?style=flat-square" alt="SQL on FHIR">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/R-0F2233?style=flat-square" alt="R">
+  <img src="https://img.shields.io/badge/Python-0F2233?style=flat-square" alt="Python">
+  <img src="https://img.shields.io/badge/SQL-0F2233?style=flat-square" alt="SQL">
+  <img src="https://img.shields.io/badge/TypeScript-0F2233?style=flat-square" alt="TypeScript">
+  <img src="https://img.shields.io/badge/PostgreSQL-0F2233?style=flat-square" alt="PostgreSQL">
+  <img src="https://img.shields.io/badge/Kafka-0F2233?style=flat-square" alt="Kafka">
+  <img src="https://img.shields.io/badge/HAPI%20FHIR-0F2233?style=flat-square" alt="HAPI FHIR">
+  <img src="https://img.shields.io/badge/DuckDB-0F2233?style=flat-square" alt="DuckDB">
+  <img src="https://img.shields.io/badge/Docker-0F2233?style=flat-square" alt="Docker">
+  <img src="https://img.shields.io/badge/Shiny-0F2233?style=flat-square" alt="Shiny">
+</p>
 
 <p align="center">
   <a href="https://www.hl7ecuador.org/">HL7 Ecuador</a> ·
@@ -13,11 +38,11 @@
 
 ---
 
-### From interoperable clinical data to territorial intelligence
+### Closing the gap between clinical practice, data engineering and AI
 
-I build open tools that connect **clinical standards, databases, analytics and cartography**, turning scattered information into reusable data for research, epidemiological surveillance and public health decisions.
+I turn fragmented health systems into **interoperable, secure and scalable ecosystems** that deliver timely information for epidemiological surveillance, health management and public health decisions. What sets me apart is combining **clinical and epidemiological knowledge** with a technical profile in **data architecture and data science**.
 
-I chair **[HL7 Ecuador](https://www.hl7ecuador.org/)**. I work end to end: from **standards** (HL7 FHIR R4, SNOMED CT, LOINC, ICD-11, openEHR, IHE profiles, FSH implementation guides, SQL on FHIR) to **data architecture and engineering** (HAPI FHIR, Kafka, PostgreSQL with a *medallion* architecture, DuckDB, Python ETL, Docker) and **analytics** (R, Shiny, Quarto, `sf`, forecasting and anomaly detection for surveillance). I mostly develop in R, Python, SQL and TypeScript.
+I chair **[HL7 Ecuador](https://www.hl7ecuador.org/)**, promoting the adoption of interoperability standards and health data governance. I work end to end: from **standards** (HL7 FHIR R4, SNOMED CT, LOINC, ICD-11, DICOM, IHE profiles, openEHR, GS1 Healthcare, FSH implementation guides, SQL on FHIR) to **data architecture and engineering** (HAPI FHIR, Kafka, PostgreSQL with a *medallion* architecture, DuckDB, Python ETL, Docker) and **analytics** (R, Shiny, Quarto, `sf`, forecasting and anomaly detection for surveillance). I mostly develop in R, Python, SQL and TypeScript.
 
 <p align="center">
   <a href="#r-packages">Packages</a> ·
