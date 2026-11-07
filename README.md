@@ -17,9 +17,18 @@
 
 ### Cierro la brecha entre la práctica clínica, la ingeniería de datos y la IA
 
-Transformo sistemas de salud fragmentados en **ecosistemas interoperables, seguros y escalables**, capaces de generar información oportuna para la vigilancia epidemiológica, la gestión sanitaria y las decisiones en salud pública. Mi diferencial es combinar el **conocimiento clínico y epidemiológico** con un perfil técnico en **arquitectura y ciencia de datos**.
+Transformo sistemas de salud fragmentados en **ecosistemas interoperables y reproducibles**, capaces de generar información oportuna para la vigilancia epidemiológica, la gestión sanitaria y las decisiones en salud pública. Mi diferencial es combinar el **conocimiento clínico y epidemiológico** con un perfil técnico en **arquitectura y ciencia de datos**.
 
-Presido **[HL7 Ecuador](https://www.hl7ecuador.org/)**, donde impulso la adopción de estándares de interoperabilidad y gobernanza de datos en salud. Trabajo de punta a punta: desde **estándares clínicos y terminologías** (guías de implementación en FSH, SQL on FHIR) hasta **arquitectura e ingeniería de datos** (HAPI FHIR, Kafka, PostgreSQL con arquitectura *medallion*, DuckDB, ETL en Python, Docker) y **analítica** (R, Shiny, Quarto, `sf`, pronóstico y detección de anomalías para vigilancia). Desarrollo sobre todo en R, Python, SQL y TypeScript.
+Presido **[HL7 Ecuador](https://www.hl7ecuador.org/)**, donde impulso la adopción de estándares de interoperabilidad y gobernanza de datos en salud. Un ejemplo de mi forma de trabajar: [de recursos FHIR a un mapa de tasas, paso a paso y reproducible](https://f-slg.github.io/fhirviews/articles/tasas-pobecu.html).
+
+<details>
+<summary><strong>Stack técnico</strong></summary>
+
+<br>
+
+Trabajo de punta a punta: desde **estándares clínicos y terminologías** (guías de implementación en FSH, SQL on FHIR) hasta **arquitectura e ingeniería de datos** (HAPI FHIR, Kafka, PostgreSQL con arquitectura *medallion*, DuckDB, ETL en Python, Docker) y **analítica** (R, Shiny, Quarto, `sf`, pronóstico y detección de anomalías para vigilancia). Desarrollo sobre todo en R, Python, SQL y TypeScript.
+
+</details>
 
 <p align="center">
   <a href="#paquetes-de-r">Paquetes</a> ·
